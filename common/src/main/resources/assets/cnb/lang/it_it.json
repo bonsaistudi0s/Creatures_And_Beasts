@@ -1,0 +1,120 @@
+{
+  "item.cnb.cindershell_shell_shard": "Frammento di guscio di bracierguscio",
+  "item.cnb.apple_slice": "Fette di mela",
+  "item.cnb.lizard_egg": "Uovo di lucertola",
+  "item.cnb.entity_net": "Retino",
+  "item.cnb.yeti_antler": "Corno di yeti",
+  "item.cnb.yeti_hide": "Pelle di yeti",
+
+  "item.cnb.pink_minipad_flower": "Pink Minipad Flower",
+  "item.cnb.light_pink_minipad_flower": "Light Pink Minipad Flower",
+  "item.cnb.yellow_minipad_flower": "Yellow Minipad Flower",
+  "item.cnb.pink_minipad_flower_glow": "Pink Glowing Minipad Flower",
+  "item.cnb.light_pink_minipad_flower_glow": "Light Pink Glowing Minipad Flower",
+  "item.cnb.yellow_minipad_flower_glow": "Yellow Glowing Minipad Flower",
+
+  "item.cnb.heal_spell_book_1": "Heal Spell Book",
+  "item.cnb.heal_spell_book_2": "Heal Spell Book",
+  "item.cnb.heal_spell_book_3": "Heal Spell Book",
+
+  "item.cnb.flower_crown": "Flower Crown",
+  "item.cnb.glowing_flower_crown": "Glowing Flower Crown",
+  "item.cnb.sporeling_backpack": "Sporeling Backpack",
+
+  "item.cnb.cinder_sword": "Cinder Sword",
+  "item.cnb.cinder_sword_1": "Cinder Sword",
+  "item.cnb.cinder_sword_2": "Cinder Sword",
+  "item.cnb.cinder_sword_3": "Cinder Sword",
+  "item.cnb.cinder_sword_4": "Cinder Sword",
+
+  "item.cnb.cactem_spear": "Cactem Spear",
+
+  "item.cnb.pink_waterlily": "Pink Waterlily",
+  "item.cnb.light_pink_waterlily": "Light Pink Waterlily",
+  "item.cnb.yellow_waterlily": "Yellow Waterlily",
+  "block.cnb.pink_waterlily_block": "Pink Waterlily",
+  "block.cnb.potted_pink_waterlily": "Potted Pink Waterlily",
+  "block.cnb.light_pink_waterlily_block": "Light Pink Waterlily",
+  "block.cnb.potted_light_pink_waterlily": "Potted Light Pink Waterlily",
+  "block.cnb.yellow_waterlily_block": "Yellow Waterlily",
+  "block.cnb.potted_yellow_waterlily": "Potted Yellow Waterlily",
+
+  "block.cnb.lizard_egg_block": "Blocco uovo di lucertola",
+  "block.cnb.cinder_furnace": "Cinder Furnace",
+
+  "item.cnb.lizard_item_desert": "Lizard",
+  "item.cnb.lizard_item_desert_2": "Lizard",
+  "item.cnb.lizard_item_jungle": "Lizard",
+  "item.cnb.lizard_item_jungle_2": "Lizard",
+  "item.cnb.lizard_item_mushroom": "Lizard",
+
+  "item.cnb.sporeling_overworld_egg": "Overworld Sporeling Spawn Egg",
+  "item.cnb.sporeling_nether_egg": "Nether Sporeling Spawn Egg",
+  "item.cnb.little_grebe_spawn_egg": "Uovo generatore di tuffetto",
+  "item.cnb.lizard_spawn_egg": "Uovo generatore di lucertola",
+  "item.cnb.cindershell_spawn_egg": "Uovo generatore di bracierguscio",
+  "item.cnb.cindershell_bucket": "Secchio con bracierguscio",
+  "item.cnb.lilytad_spawn_egg": "Uovo generatore di ninfeide",
+  "item.cnb.yeti_spawn_egg": "Uovo generatore di yeti",
+  "item.cnb.minipad_spawn_egg": "Minipad Spawn Egg",
+  "item.cnb.end_whale_spawn_egg": "End Whale Spawn Egg",
+  "item.cnb.cactem_spawn_egg": "Cactem Spawn Egg",
+
+  "entity.cnb.little_grebe": "Tuffetto",
+  "entity.cnb.little_grebe_chick": "Pulcino di tuffetto",
+  "entity.cnb.cindershell": "Bracierguscio",
+  "entity.cnb.lizard": "Lucertola",
+  "entity.cnb.sporeling": "Sporeling",
+  "entity.cnb.yeti": "Yeti",
+  "entity.cnb.lilytad": "Ninfeide",
+  "entity.cnb.minipad": "Minipad",
+  "entity.cnb.end_whale": "End Whale",
+  "entity.cnb.cactem": "Cactem",
+
+  "entity.little_grebe_chick.ambient": "Pulcino di tuffetto pigola",
+  "entity.little_grebe.ambient": "Tuffetto pigola",
+  "entity.little_grebe.hurt": "Tuffetto ferito",
+  "entity.lizard.egg_hatch": "Uovo di lucertola si schiude",
+
+  "entity.cindershell.ambient": "Bracierguscio ringhia",
+  "entity.cindershell.hurt": "Bracierguscio ferito",
+  "entity.cindershell.eat": "Bracierguscio mangia",
+
+  "entity.sporeling_overworld.ambient": "Fungoide squittisce",
+  "entity.sporeling_overworld.hurt": "Fungoide ferito",
+  "entity.sporeling_nether.ambient": "Fungoide ringhia",
+  "entity.sporeling_nether.hurt": "Fungoide ostile ferito",
+  "entity.sporeling_warped.ambient": "Fungoide squittisce",
+  "entity.sporeling_warped.hurt": "Fungoide neutrale ferito",
+
+  "entity.sporeling.bite": "Fungoide morde",
+  "entity.lilytad.ambient": "Ninfeide trilla",
+  "entity.lilytad.hurt": "Ninfeide ferito",
+  "entity.lilytad.death": "Ninfeide muore",
+
+  "entity.yeti.ambient": "Yeti ringhia",
+  "entity.yeti.hurt": "Yeti ferito",
+  "entity.yeti.step": "Yeti cammina",
+  "entity.yeti.hit": "Yeti attacca",
+  "entity.yeti_adult.eat": "Yeti mangia",
+  "entity.yeti_baby.eat": "Piccolo di yeti mangia",
+
+  "entity.minipad.hurt": "Minipad hurts",
+  "entity.minipad.step": "Minipad walks",
+  "entity.minipad.swim": "Minipad swims",
+
+  "entity.end_whale.ambient": "End Whale calls",
+
+  "entity.cactem.ambient": "Cactem creaks",
+  "entity.cactem.hurt": "Cactem hurts",
+  "entity.cactem.heal": "Cactem casts a spell",
+
+  "item.heal_spell_book.player_heal": "Spell is cast",
+  "item.cactem_spear.throw": "Spear flies",
+
+  "itemGroup.cnb_tab": "Creature e Bestie",
+
+  "cnb.container.cinder_furnace": "Cinder Furnace",
+
+  "cnb.item.tooltip.cinder_furnace": "§7Right click a Cindershell to equip"
+}

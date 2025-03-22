@@ -1,0 +1,120 @@
+{
+  "item.cnb.cindershell_shell_shard": "Уламок тліючого панцира",
+  "item.cnb.apple_slice": "Яблучні слайси",
+  "item.cnb.lizard_egg": "Яйце ящірки",
+  "item.cnb.entity_net": "Тенета",
+  "item.cnb.yeti_antler": "Ріг єті",
+  "item.cnb.yeti_hide": "Шкіра єті",
+
+  "item.cnb.pink_minipad_flower": "Рожева міні-квітка",
+  "item.cnb.light_pink_minipad_flower": "Ніжно-рожева міні-квітка",
+  "item.cnb.yellow_minipad_flower": "Жовта міні-квітка",
+  "item.cnb.pink_minipad_flower_glow": "Рожева сяюча міні-квітка",
+  "item.cnb.light_pink_minipad_flower_glow": "Ніжно-рожева сяюча міні-квітка",
+  "item.cnb.yellow_minipad_flower_glow": "Жовта сяюча міні-квітка",
+
+  "item.cnb.heal_spell_book_1": "Книга заклинань лікування",
+  "item.cnb.heal_spell_book_2": "Книга заклинань лікування",
+  "item.cnb.heal_spell_book_3": "Книга заклинань лікування",
+
+  "item.cnb.flower_crown": "Квіткова корона",
+  "item.cnb.glowing_flower_crown": "Сяюча квіткова корона",
+  "item.cnb.sporeling_backpack": "Рюкзак Споровичка",
+
+  "item.cnb.cinder_sword": "Тліючий меч",
+  "item.cnb.cinder_sword_1": "Тліючий меч",
+  "item.cnb.cinder_sword_2": "Тліючий меч",
+  "item.cnb.cinder_sword_3": "Тліючий меч",
+  "item.cnb.cinder_sword_4": "Тліючий меч",
+
+  "item.cnb.cactem_spear": "Спис Кактема",
+
+  "item.cnb.pink_waterlily": "Рожеве латаття",
+  "item.cnb.light_pink_waterlily": "Ніжно-рожеве латаття",
+  "item.cnb.yellow_waterlily": "Жовте латаття",
+  "block.cnb.pink_waterlily_block": "Рожеве латаття",
+  "block.cnb.potted_pink_waterlily": "Рожеве латаття у горщику",
+  "block.cnb.light_pink_waterlily_block": "Ніжно-рожеве латаття",
+  "block.cnb.potted_light_pink_waterlily": "Ніжно-рожеве латаття у горщику",
+  "block.cnb.yellow_waterlily_block": "Жовте латаття",
+  "block.cnb.potted_yellow_waterlily": "Жовте латаття у горщику",
+
+  "block.cnb.lizard_egg_block": "Блок яєць ящірки",
+  "block.cnb.cinder_furnace": "Тліюча пічка",
+
+  "item.cnb.lizard_item_desert": "Ящірка",
+  "item.cnb.lizard_item_desert_2": "Ящірка",
+  "item.cnb.lizard_item_jungle": "Ящірка",
+  "item.cnb.lizard_item_jungle_2": "Ящірка",
+  "item.cnb.lizard_item_mushroom": "Ящірка",
+
+  "item.cnb.sporeling_overworld_egg": "Яйце виклику Наземного споровичка",
+  "item.cnb.sporeling_nether_egg": "Яйце виклику Незерського споровичка",
+  "item.cnb.little_grebe_spawn_egg": "Яйце виклику Манюні-поганки",
+  "item.cnb.lizard_spawn_egg": "Яйце виклику Ящірки",
+  "item.cnb.cindershell_spawn_egg": "Яйце виклику Тлієлуски",
+  "item.cnb.cindershell_bucket": "Відро з Тлієлускою",
+  "item.cnb.lilytad_spawn_egg": "Яйце виклику Лілійки",
+  "item.cnb.yeti_spawn_egg": "Яйце виклику Єті",
+  "item.cnb.minipad_spawn_egg": "Яйце виклику Міні-квіточки",
+  "item.cnb.end_whale_spawn_egg": "Яйце виклику кита Краю",
+  "item.cnb.cactem_spawn_egg": "Яйце виклику Кактема",
+
+  "entity.cnb.little_grebe": "Манюня-поганка",
+  "entity.cnb.little_grebe_chick": "Дитинча манюні-поганки",
+  "entity.cnb.cindershell": "Тлієлуска",
+  "entity.cnb.lizard": "Ящірка",
+  "entity.cnb.sporeling": "Споровичок",
+  "entity.cnb.yeti": "Єті",
+  "entity.cnb.lilytad": "Лілійка",
+  "entity.cnb.minipad": "Міні-квіточка",
+  "entity.cnb.end_whale": "Кит Краю",
+  "entity.cnb.cactem": "Кактем",
+
+  "entity.little_grebe_chick.ambient": "Манюня-поганка пищить",
+  "entity.little_grebe.ambient": "Манюня-поганка пищить",
+  "entity.little_grebe.hurt": "Манюня-поганка атакована",
+  "entity.lizard.egg_hatch": "Яйце ящірки тріскається",
+
+  "entity.cindershell.ambient": "Тлієлуска гарчить",
+  "entity.cindershell.hurt": "Тлієлуска атакована",
+  "entity.cindershell.eat": "Тлієлуска їсть",
+
+  "entity.sporeling_overworld.ambient": "Споровичок скрипить",
+  "entity.sporeling_overworld.hurt": "Споровичок атакований",
+  "entity.sporeling_nether.ambient": "Споровичок гарчить",
+  "entity.sporeling_nether.hurt": "Ворожий споровичок атакований",
+  "entity.sporeling_warped.ambient": "Споровичок скрипить",
+  "entity.sporeling_warped.hurt": "Нейтральний споровичок атакований",
+
+  "entity.sporeling.bite": "Споровичок кусає",
+  "entity.lilytad.ambient": "Лілійка скрекоче",
+  "entity.lilytad.hurt": "Лілійка атакована",
+  "entity.lilytad.death": "Лілійка вмирає",
+
+  "entity.yeti.ambient": "Єті гарчить",
+  "entity.yeti.hurt": "Єті атакованиий",
+  "entity.yeti.step": "Єті ходить",
+  "entity.yeti.hit": "Єті aатакує",
+  "entity.yeti_adult.eat": "Єті їсть",
+  "entity.yeti_baby.eat": "Малий єті плямкає",
+
+  "entity.minipad.hurt": "Міні-квіточка атакована",
+  "entity.minipad.step": "Міні-квіточка ходить",
+  "entity.minipad.swim": "Міні-квіточка плаває",
+
+  "entity.end_whale.ambient": "Кит Краю гукає",
+
+  "entity.cactem.ambient": "Кактем скрипить",
+  "entity.cactem.hurt": "Кактем атакована",
+  "entity.cactem.heal": "Кактем чаклує",
+
+  "item.heal_spell_book.player_heal": "Заклинання зроблено",
+  "item.cactem_spear.throw": "Спис летить",
+
+  "itemGroup.cnb_tab": "Істоти І Звірі",
+
+  "cnb.container.cinder_furnace": "Тліюча пічка",
+
+  "cnb.item.tooltip.cinder_furnace": "\u00A77Клацніть ПКМ з тліючим панциром, щоб спорядити"
+}

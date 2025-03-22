@@ -1,0 +1,112 @@
+{
+  "credit": "Made with Blockbench",
+  "textures": {
+    "1": "cnb:blocks/lizard_eggs",
+    "particle": "cnb:blocks/lizard_eggs"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        0,
+        7.6
+      ],
+      "to": [
+        8.4,
+        1.4,
+        9
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          0,
+          8.3
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            6,
+            6,
+            8
+          ],
+          "rotation": 180,
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            4,
+            0,
+            6,
+            2
+          ],
+          "rotation": 270,
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            2,
+            8,
+            0,
+            6
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            2,
+            5,
+            4,
+            7
+          ],
+          "rotation": 90,
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "rotation": 180,
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            4,
+            2,
+            6,
+            4
+          ],
+          "texture": "#1"
+        }
+      }
+    }
+  ],
+  "display": {
+    "head": {
+      "translation": [
+        0,
+        14.25,
+        0
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "group",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "children": [
+        0
+      ]
+    }
+  ]
+}

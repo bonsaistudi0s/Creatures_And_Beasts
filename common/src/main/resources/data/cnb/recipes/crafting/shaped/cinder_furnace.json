@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "GXG"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:nether_bricks"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "cnb:cinder_furnace"
+  }
+}

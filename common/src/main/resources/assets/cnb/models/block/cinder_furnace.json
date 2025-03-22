@@ -1,0 +1,10 @@
+{
+  "parent": "cnb:block/orientable_with_sides",
+  "textures": {
+    "top": "cnb:blocks/cinder_furnace_top",
+    "front": "cnb:blocks/cinder_furnace_front",
+    "left": "cnb:blocks/cinder_furnace_left",
+    "right": "cnb:blocks/cinder_furnace_right",
+    "back": "cnb:blocks/cinder_furnace_back"
+  }
+}

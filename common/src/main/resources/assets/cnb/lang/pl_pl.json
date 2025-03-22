@@ -1,0 +1,120 @@
+{
+  "item.cnb.cindershell_shell_shard": "Odłamek Skorupy Żużełwia",
+  "item.cnb.apple_slice": "Plasteki Jabłka",
+  "item.cnb.lizard_egg": "Jajko Jaszczurki",
+  "item.cnb.entity_net": "Siatka",
+  "item.cnb.yeti_antler": "Poroże Yeti",
+  "item.cnb.yeti_hide": "Skóra Yeti",
+
+  "item.cnb.pink_minipad_flower": "Różowy kwaiat Lilieka wodnego",
+  "item.cnb.light_pink_minipad_flower": "Jasno Różowy kwiat Lilieka wodnego",
+  "item.cnb.yellow_minipad_flower": "Żółty kwiat Lilieka wodnego",
+  "item.cnb.pink_minipad_flower_glow": "Świecący Różowy kwaiat Lilieka wodnego",
+  "item.cnb.light_pink_minipad_flower_glow": "Świecący Jasno Różowy kwiat Lilieka wodnego",
+  "item.cnb.yellow_minipad_flower_glow": "Świecący Żółty kwiat Lilieka wodnego",
+
+  "item.cnb.heal_spell_book_1": "Książka Zaklęcia Leczenia",
+  "item.cnb.heal_spell_book_2": "Książka Zaklęcia Leczenia",
+  "item.cnb.heal_spell_book_3": "Książka Zaklęcia Leczenia",
+
+  "item.cnb.flower_crown": "Kwiecisty Wieniec",
+  "item.cnb.glowing_flower_crown": "Swiecący Kwiecisty Wieniec",
+  "item.cnb.sporeling_backpack": "Plecak Grzybiątkowy",
+
+  "item.cnb.cinder_sword": "Rozżarzony miecz",
+  "item.cnb.cinder_sword_1": "Rozżarzony miecz",
+  "item.cnb.cinder_sword_2": "Rozżarzony miecz",
+  "item.cnb.cinder_sword_3": "Rozżarzony miecz",
+  "item.cnb.cinder_sword_4": "Rozżarzony miecz",
+
+  "item.cnb.cactem_spear": "Kaktuściowa włócznia",
+
+  "item.cnb.pink_waterlily": "Różowy Grzybień",
+  "item.cnb.light_pink_waterlily": "Jasno Różowy Grzybień",
+  "item.cnb.yellow_waterlily": "Żółty Grzybień",
+  "block.cnb.pink_waterlily_block": "Różowy Grzybień",
+  "block.cnb.potted_pink_waterlily": "Różowy Grzybień w doniczce",
+  "block.cnb.light_pink_waterlily_block": "Jasno Różowy Grzybień",
+  "block.cnb.potted_light_pink_waterlily": "Jasno Różowy Grzybień w doniczce",
+  "block.cnb.yellow_waterlily_block": "Żółty Grzybień",
+  "block.cnb.potted_yellow_waterlily": "Żółty Grzybień w doniczce",
+
+  "block.cnb.lizard_egg_block": "Blok Jajka Jaszczurki",
+  "block.cnb.cinder_furnace": "Rozżarzony piec",
+
+  "item.cnb.lizard_item_desert": "Jaszczurka",
+  "item.cnb.lizard_item_desert_2": "Jaszczurka",
+  "item.cnb.lizard_item_jungle": "Jaszczurka",
+  "item.cnb.lizard_item_jungle_2": "Jaszczurka",
+  "item.cnb.lizard_item_mushroom": "Jaszczurka",
+
+  "item.cnb.sporeling_overworld_egg": "Jajo przyzywające Powierzchniowe Grzybiątko",
+  "item.cnb.sporeling_nether_egg": "Jajo przyzywające Netherowe Grzybiątko",
+  "item.cnb.little_grebe_spawn_egg": "Jajo przyzywające Perkozeka Zwyczajnego",
+  "item.cnb.lizard_spawn_egg": "Jajo przyzywające Jaszczurke",
+  "item.cnb.cindershell_spawn_egg": "Jajo przyzywające Żużełwia",
+  "item.cnb.cindershell_bucket": "Wiadro z Zużełwiem",
+  "item.cnb.lilytad_spawn_egg": "Jajo przyzywające Liliowca wodnego",
+  "item.cnb.yeti_spawn_egg": "Jajo przyzywające Yeti",
+  "item.cnb.minipad_spawn_egg": "Jajo przyzywające Lilieka wodnego",
+  "item.cnb.end_whale_spawn_egg": "Jajo przyzywające Wieloryba Kresu",
+  "item.cnb.cactem_spawn_egg": "Jajo przyzywające Kaktuść",
+
+  "entity.cnb.little_grebe": "Perkozek Zwyczajny",
+  "entity.cnb.little_grebe_chick": "Młode Perkozek Zwyczajny",
+  "entity.cnb.cindershell": "Żużełw",
+  "entity.cnb.lizard": "Jaszczurka",
+  "entity.cnb.sporeling": "Grzybiątko",
+  "entity.cnb.yeti": "Yeti",
+  "entity.cnb.lilytad": "Liliowiec wodny",
+  "entity.cnb.minipad": "Liliek wodny",
+  "entity.cnb.end_whale": "Wieloryb Kresu",
+  "entity.cnb.cactem": "Cactem",
+
+  "entity.little_grebe_chick.ambient": "Perkozek Zwyczajny Skrzecze",
+  "entity.little_grebe.ambient": "Perkozek Zwyczajny Skrzecze",
+  "entity.little_grebe.hurt": "Perkozek Zwyczajny Cierpi",
+  "entity.lizard.egg_hatch": "Jajko Jaszczurki Wykluwa Się",
+
+  "entity.cindershell.ambient": "Cindershell growls",
+  "entity.cindershell.hurt": "Cindershell hurts",
+  "entity.cindershell.eat": "Cindershell eats",
+
+  "entity.sporeling_overworld.ambient": "Grzybiątko piszczy",
+  "entity.sporeling_overworld.hurt": "Grzybiątko cierpi",
+  "entity.sporeling_nether.ambient": "Grzybiątko warczy",
+  "entity.sporeling_nether.hurt": "Złe Grzybiątko cierpi",
+  "entity.sporeling_warped.ambient": "Grzybiątko piszczy",
+  "entity.sporeling_warped.hurt": "neutralne Grzybiątko cierpi",
+
+  "entity.sporeling.bite": "Grzybiątko gryzie",
+  "entity.lilytad.ambient": "Liliowiec wodny cyka",
+  "entity.lilytad.hurt": "Liliowiec wodny cierpi",
+  "entity.lilytad.death": "Liliowiec wodny umiera",
+
+  "entity.yeti.ambient": "Yeti warczy",
+  "entity.yeti.hurt": "Yeti cierpi",
+  "entity.yeti.step": "Yeti kroczy",
+  "entity.yeti.hit": "Yeti atakuje",
+  "entity.yeti_adult.eat": "Yeti je",
+  "entity.yeti_baby.eat": "Młode Yeti gryzie",
+
+  "entity.minipad.hurt": "Liliek wodny cierpi",
+  "entity.minipad.step": "Liliek wodny chodzi",
+  "entity.minipad.swim": "Liliek wodny pływa",
+
+  "entity.end_whale.ambient": "Wieloryb Kresu wyje",
+
+  "entity.cactem.ambient": "Kaktuść skrzypi",
+  "entity.cactem.hurt": "Kaktuść cierpi",
+  "entity.cactem.heal": "Kaktuść rzuca zaklęcie",
+
+  "item.heal_spell_book.player_heal": "Zaklęcie jest rzucane",
+  "item.cactem_spear.throw": "Włócznia świszczy",
+
+  "itemGroup.cnb_tab": "Stworki i Bestie",
+
+  "cnb.container.cinder_furnace": "Rozżarzony piec",
+
+  "cnb.item.tooltip.cinder_furnace": "\u00A77Kliknij Żużełwia prawym przyciskiem myszy aby załozyć"
+}

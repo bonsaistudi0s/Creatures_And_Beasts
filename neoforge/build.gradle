@@ -3,6 +3,21 @@ plugins {
     id 'net.neoforged.moddev'
 }
 
+repositories {
+    exclusiveContent {
+        forRepository {
+            maven {
+                url "https://cursemaven.com"
+            }
+        }
+        filter {
+            includeGroup "curse.maven"
+        }
+    }
+
+    maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+}
+
 neoForge {
     version = neoforge_version
     // Automatically enable neoforge AccessTransformers if the file exists
@@ -34,6 +49,11 @@ neoForge {
             sourceSet sourceSets.main
         }
     }
+}
+
+dependencies {
+    implementation "curse.maven:hellions-api-${hellionsapi_projectid}:${hellionsapi_neoforge}"
+    implementation "software.bernie.geckolib:geckolib-neoforge-1.21.1:${neoforge_geckolib_version}"
 }
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }

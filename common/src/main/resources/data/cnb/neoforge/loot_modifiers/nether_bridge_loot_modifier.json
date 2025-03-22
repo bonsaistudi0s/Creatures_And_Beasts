@@ -1,0 +1,5 @@
+{
+  "type": "hellionsapi:hellions_loot_modifier",
+  "conditions": [],
+  "id": "cnb:nether_bridge_loot_modifier"
+}

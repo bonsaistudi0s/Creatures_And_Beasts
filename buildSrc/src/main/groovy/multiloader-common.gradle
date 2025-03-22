@@ -96,8 +96,11 @@ processResources {
             'description'                  : project.description,
             'neoforge_version'             : neoforge_version,
             'neoforge_loader_version_range': neoforge_loader_version_range,
-            "forge_version": forge_version,
-            "forge_loader_version_range": forge_loader_version_range,
+            'hellionsapi_projectid'        : hellionsapi_projectid,
+            'hellionsapi_fabric'           : hellionsapi_fabric,
+            'hellionsapi_neoforge'         : hellionsapi_neoforge,
+            'neoforge_geckolib_version'    : neoforge_geckolib_version,
+            'fabric_geckolib_version'      : fabric_geckolib_version,
             'credits'                      : credits,
             'java_version'                 : java_version
     ]

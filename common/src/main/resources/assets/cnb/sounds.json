@@ -1,0 +1,339 @@
+{
+  "entity.little_grebe_chick.ambient": {
+    "subtitle": "entity.little_grebe_chick.ambient",
+    "sounds": [
+      {
+        "name": "cnb:entity/little_grebe/entity.little_grebe_chick.ambient"
+      }
+    ]
+  },
+  "entity.little_grebe.ambient": {
+    "subtitle": "entity.little_grebe.ambient",
+    "sounds": [
+      {
+        "name": "cnb:entity/little_grebe/entity.little_grebe.ambient"
+      },
+      {
+        "name": "cnb:entity/little_grebe/entity.little_grebe.ambient_1"
+      }
+    ]
+  },
+  "entity.little_grebe.hurt": {
+    "subtitle": "entity.little_grebe.hurt",
+    "sounds": [
+      {
+        "name": "cnb:entity/little_grebe/entity.little_grebe.hurt"
+      }
+    ]
+  },
+  "entity.lizard.egg_hatch": {
+    "category": "block",
+    "subtitle": "entity.lizard.egg_hatch",
+    "sounds": [
+      {
+        "name": "cnb:entity/lizard/entity.lizard.egg_hatch"
+      }
+    ]
+  },
+  "entity.cindershell.ambient": {
+    "subtitle": "entity.cindershell.ambient",
+    "sounds": [
+      {
+        "name": "cnb:entity/cindershell/entity.cindershell.ambient"
+      },
+      {
+        "name": "cnb:entity/cindershell/entity.cindershell.ambient_1"
+      }
+    ]
+  },
+  "entity.cindershell.hurt": {
+    "subtitle": "entity.cindershell.hurt",
+    "sounds": [
+      {
+        "name": "cnb:entity/cindershell/entity.cindershell.hurt"
+      }
+    ]
+  },
+  "entity.cindershell_adult.eat": {
+    "subtitle": "entity.cindershell.eat",
+    "sounds": [
+      {
+        "name": "cnb:entity/cindershell/entity.cindershell_adult.eat"
+      }
+    ]
+  },
+  "entity.cindershell_baby.eat": {
+    "subtitle": "entity.cindershell.eat",
+    "sounds": [
+      {
+        "name": "cnb:entity/cindershell/entity.cindershell_baby.eat"
+      }
+    ]
+  },
+  "entity.sporeling_overworld.ambient": {
+    "subtitle": "entity.sporeling_overworld.ambient",
+    "sounds": [
+      {
+        "name": "cnb:entity/sporeling/entity.sporeling_overworld.ambient"
+      },
+      {
+        "name": "cnb:entity/sporeling/entity.sporeling_overworld.ambient_1"
+      }
+    ]
+  },
+  "entity.sporeling_overworld.hurt": {
+    "subtitle": "entity.sporeling_overworld.hurt",
+    "sounds": [
+      {
+        "name": "cnb:entity/sporeling/entity.sporeling_overworld.hurt"
+      },
+      {
+        "name": "cnb:entity/sporeling/entity.sporeling_overworld.hurt_1"
+      }
+    ]
+  },
+  "entity.sporeling_nether.ambient": {
+    "subtitle": "entity.sporeling_nether.ambient",
+    "sounds": [
+      {
+        "name": "cnb:entity/sporeling/entity.sporeling_nether.ambient"
+      },
+      {
+        "name": "cnb:entity/sporeling/entity.sporeling_nether.ambient_1"
+      }
+    ]
+  },
+  "entity.sporeling_nether.hurt": {
+    "subtitle": "entity.sporeling_nether.hurt",
+    "sounds": [
+      {
+        "name": "cnb:entity/sporeling/entity.sporeling_nether.hurt"
+      },
+      {
+        "name": "cnb:entity/sporeling/entity.sporeling_nether.hurt_1"
+      }
+    ]
+  },
+  "entity.sporeling_warped.ambient": {
+    "subtitle": "entity.sporeling_warped.ambient",
+    "sounds": [
+      {
+        "name": "cnb:entity/sporeling/entity.sporeling_warped.ambient"
+      },
+      {
+        "name": "cnb:entity/sporeling/entity.sporeling_warped.ambient_1"
+      }
+    ]
+  },
+  "entity.sporeling_warped.hurt": {
+    "subtitle": "entity.sporeling_warped.hurt",
+    "sounds": [
+      {
+        "name": "cnb:entity/sporeling/entity.sporeling_warped.hurt"
+      },
+      {
+        "name": "cnb:entity/sporeling/entity.sporeling_warped.hurt_1"
+      }
+    ]
+  },
+  "entity.sporeling.bite": {
+    "subtitle": "entity.sporeling.bite",
+    "sounds": [
+      {
+        "name": "cnb:entity/sporeling/entity.sporeling.bite"
+      }
+    ]
+  },
+  "entity.lilytad.ambient": {
+    "subtitle": "entity.lilytad.ambient",
+    "sounds": [
+      {
+        "name": "cnb:entity/lilytad/entity.lilytad.ambient"
+      },
+      {
+        "name": "cnb:entity/lilytad/entity.lilytad.ambient_1"
+      }
+    ]
+  },
+  "entity.lilytad.hurt": {
+    "subtitle": "entity.lilytad.hurt",
+    "sounds": [
+      {
+        "name": "cnb:entity/lilytad/entity.lilytad.hurt"
+      },
+      {
+        "name": "cnb:entity/lilytad/entity.lilytad.hurt_1"
+      }
+    ]
+  },
+  "entity.lilytad.death": {
+    "subtitle": "entity.lilytad.death",
+    "sounds": [
+      {
+        "name": "cnb:entity/lilytad/entity.lilytad.death"
+      }
+    ]
+  },
+  "entity.yeti.ambient": {
+    "subtitle": "entity.yeti.ambient",
+    "sounds": [
+      {
+        "name": "cnb:entity/yeti/entity.yeti.ambient"
+      },
+      {
+        "name": "cnb:entity/yeti/entity.yeti.ambient_1"
+      },
+      {
+        "name": "cnb:entity/yeti/entity.yeti.ambient_2"
+      }
+    ]
+  },
+  "entity.yeti.hurt": {
+    "subtitle": "entity.yeti.hurt",
+    "sounds": [
+      {
+        "name": "cnb:entity/yeti/entity.yeti.hurt"
+      },
+      {
+        "name": "cnb:entity/yeti/entity.yeti.hurt_1"
+      }
+    ]
+  },
+  "entity.yeti.step": {
+    "subtitle": "entity.yeti.step",
+    "sounds": [
+      {
+        "name": "cnb:entity/yeti/entity.yeti.step"
+      },
+      {
+        "name": "cnb:entity/yeti/entity.yeti.step_1"
+      }
+    ]
+  },
+  "entity.yeti.hit": {
+    "subtitle": "entity.yeti.hit",
+    "sounds": [
+      {
+        "name": "cnb:entity/yeti/entity.yeti.hit"
+      }
+    ]
+  },
+  "entity.yeti_adult.eat": {
+    "subtitle": "entity.yeti_adult.eat",
+    "sounds": [
+      {
+        "name": "cnb:entity/yeti/entity.yeti_adult.eat"
+      }
+    ]
+  },
+  "entity.yeti_baby.eat": {
+    "subtitle": "entity.yeti_baby.eat",
+    "sounds": [
+      {
+        "name": "cnb:entity/yeti/entity.yeti_baby.eat"
+      }
+    ]
+  },
+  "entity.minipad.hurt": {
+    "subtitle": "entity.minipad.hurt",
+    "sounds": [
+      {
+        "name": "cnb:entity/minipad/entity.minipad.hurt"
+      },
+      {
+        "name": "cnb:entity/minipad/entity.minipad.hurt_2"
+      }
+    ]
+  },
+  "entity.minipad.step": {
+    "subtitle": "entity.minipad.step",
+    "sounds": [
+      {
+        "name": "cnb:entity/minipad/entity.minipad.step"
+      },
+      {
+        "name": "cnb:entity/minipad/entity.minipad.step_2"
+      }
+    ]
+  },
+  "entity.minipad.swim": {
+    "subtitle": "entity.minipad.swim",
+    "sounds": [
+      {
+        "name": "cnb:entity/minipad/entity.minipad.swim"
+      },
+      {
+        "name": "cnb:entity/minipad/entity.minipad.swim_2"
+      },
+      {
+        "name": "cnb:entity/minipad/entity.minipad.swim_3"
+      }
+    ]
+  },
+  "entity.end_whale.ambient": {
+    "subtitle": "entity.end_whale.ambient",
+    "sounds": [
+      {
+        "name": "cnb:entity/end_whale/entity.end_whale.ambient"
+      },
+      {
+        "name": "cnb:entity/end_whale/entity.end_whale.ambient_2"
+      },
+      {
+        "name": "cnb:entity/end_whale/entity.end_whale.ambient_3"
+      },
+      {
+        "name": "cnb:entity/end_whale/entity.end_whale.ambient_4"
+      }
+    ]
+  },
+  "entity.cactem.ambient": {
+    "subtitle": "entity.cactem.ambient",
+    "sounds": [
+      {
+        "name": "cnb:entity/cactem/entity.cactem.ambient"
+      },
+      {
+        "name": "cnb:entity/cactem/entity.cactem.ambient_2"
+      },
+      {
+        "name": "cnb:entity/cactem/entity.cactem.ambient_3"
+      }
+    ]
+  },
+  "entity.cactem.hurt": {
+    "subtitle": "entity.cactem.hurt",
+    "sounds": [
+      {
+        "name": "cnb:entity/cactem/entity.cactem.hurt"
+      },
+      {
+        "name": "cnb:entity/cactem/entity.cactem.hurt_2"
+      }
+    ]
+  },
+  "entity.cactem.heal": {
+    "subtitle": "entity.cactem.heal",
+    "sounds": [
+      {
+        "name": "cnb:entity/cactem/entity.cactem.heal"
+      }
+    ]
+  },
+  "item.heal_spell_book.player_heal": {
+    "subtitle": "item.heal_spell_book.player_heal",
+    "sounds": [
+      {
+        "name": "cnb:item/item.heal_spell_book.player_heal"
+      }
+    ]
+  },
+  "item.cactem_spear.throw": {
+    "subtitle": "item.cactem_spear.throw",
+    "sounds": [
+      {
+        "name": "cnb:item/item.cactem_spear.throw"
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.sad_mushroom_lizard",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 0, 5],
+					"rotation": [-7.50002, 0, 0],
+					"cubes": [
+						{"origin": [-2, 0, -1], "size": [4, 3, 6], "uv": [16, 4]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "body",
+					"pivot": [0, 0, 5.0049],
+					"rotation": [7.5, 0, 0],
+					"cubes": [
+						{"origin": [-1, 0, 5], "size": [2, 2, 5], "uv": [0, 19]}
+					]
+				},
+				{
+					"name": "tail_2",
+					"parent": "tail",
+					"pivot": [0, 0.9876, 10.0049],
+					"cubes": [
+						{"origin": [-1, 0, 10], "size": [2, 2, 7], "uv": [0, 10]},
+						{"origin": [0, 2, 10], "size": [0, 2, 3], "uv": [0, 40]}
+					]
+				},
+				{
+					"name": "left_back_leg",
+					"parent": "body",
+					"pivot": [1, 1.4251, 1.5295],
+					"rotation": [0, -20.00196, 17.49813],
+					"cubes": [
+						{"origin": [1, 0.9251, 1.0295], "size": [5, 1, 2], "uv": [16, 0]}
+					]
+				},
+				{
+					"name": "right_back_leg",
+					"parent": "body",
+					"pivot": [-1, 1.4251, 1.5295],
+					"rotation": [0, 20.00196, -17.49813],
+					"cubes": [
+						{"origin": [-6, 0.9251, 1.0295], "size": [5, 1, 2], "uv": [16, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "body_2",
+					"parent": "body",
+					"pivot": [0, 1.5, 0],
+					"rotation": [-5.00192, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, -0.4359, -5.981], "size": [5, 4, 6], "uv": [0, 0]},
+						{"origin": [0.5, 3.5641, -5.981], "size": [0, 2, 3], "uv": [0, 40]},
+						{"origin": [-0.5, 3.5641, -2.981], "size": [0, 3, 3], "uv": [0, 37]}
+					]
+				},
+				{
+					"name": "neck",
+					"parent": "body_2",
+					"pivot": [0, 2.5, -5.8],
+					"rotation": [5.00192, 0, 0],
+					"cubes": [
+						{"origin": [-1.5, 0.9, -6.8], "size": [3, 2, 1], "uv": [39, 6]}
+					]
+				},
+				{
+					"name": "head_rotation",
+					"parent": "neck",
+					"pivot": [0, 2, -6.5]
+				},
+				{
+					"name": "head",
+					"parent": "head_rotation",
+					"pivot": [0, 2.0108, -6.515],
+					"rotation": [22.5, 0, 0],
+					"cubes": [
+						{"origin": [-2, 0.0495, -10.33], "size": [4, 4, 4], "uv": [14, 15]},
+						{"origin": [0, 4.0495, -11.33], "size": [0, 5, 5], "uv": [2, 29]},
+						{"origin": [-1.5, 0.0495, -11.33], "size": [3, 2, 1], "uv": [36, 17]}
+					]
+				},
+				{
+					"name": "left_front_leg",
+					"parent": "body_2",
+					"pivot": [2, 1.3076, -4.4351],
+					"rotation": [9.99811, 15.00004, 37.50009],
+					"cubes": [
+						{"origin": [1.8, 0.8076, -4.9351], "size": [5, 1, 2], "uv": [0, 30]}
+					]
+				},
+				{
+					"name": "right_front_leg",
+					"parent": "body_2",
+					"pivot": [-2, 1.3076, -4.4351],
+					"rotation": [9.99811, -15.00004, -37.50009],
+					"cubes": [
+						{"origin": [-6.8, 0.8076, -4.9351], "size": [5, 1, 2], "uv": [0, 30], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "cnb:item/cactem_spear",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [90, 180, 0],
+      "translation": [0, -5, 11]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [90, 180, 0],
+      "translation": [0, -5, 11]
+    },
+    "firstperson_righthand": {
+      "rotation": [70, 2.5, 0],
+      "translation": [1.25, 3.75, 4]
+    },
+    "firstperson_lefthand": {
+      "rotation": [70, 2.5, 0],
+      "translation": [1.25, 3.75, 4]
+    },
+    "fixed": {
+      "rotation": [90, 45, 0],
+      "translation": [1, -1, 7.75]
+    },
+    "ground": {
+      "rotation": [65, 22.5, 0],
+      "translation": [0, 4.5, 3.25],
+      "scale": [0.5, 0.5, 0.5]
+    },
+    "gui": {
+      "rotation": [90, -45, 0],
+      "translation": [-1.25, -1.25, 7.75],
+      "scale": [0.8, 0.8, 0.8]
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "item.cnb.cindershell_shell_shard": "シンダーシェルの甲羅の欠片",
+  "item.cnb.apple_slice": "カットリンゴ",
+  "item.cnb.lizard_egg": "トカゲの卵",
+  "item.cnb.entity_net": "虫取り網",
+  "item.cnb.yeti_antler": "イエティの角",
+  "item.cnb.yeti_hide": "イエティの毛皮",
+
+  "item.cnb.pink_minipad_flower": "桃色のミニパッドの花",
+  "item.cnb.light_pink_minipad_flower": "薄桃色のミニパッドの花",
+  "item.cnb.yellow_minipad_flower": "黄色のミニパッドの花",
+  "item.cnb.pink_minipad_flower_glow": "輝く桃色のミニパッドの花",
+  "item.cnb.light_pink_minipad_flower_glow": "輝く薄桃色のミニパッドの花",
+  "item.cnb.yellow_minipad_flower_glow": "輝く黄色のミニパッドの花",
+
+  "item.cnb.heal_spell_book_1": "回復の魔導書",
+  "item.cnb.heal_spell_book_2": "回復の魔導書",
+  "item.cnb.heal_spell_book_3": "回復の魔導書",
+
+  "item.cnb.flower_crown": "花冠",
+  "item.cnb.glowing_flower_crown": "輝く花冠",
+  "item.cnb.sporeling_backpack": "スポアリングの背負子",
+
+  "item.cnb.cinder_sword": "シンダーソード",
+  "item.cnb.cinder_sword_1": "シンダーソード",
+  "item.cnb.cinder_sword_2": "シンダーソード",
+  "item.cnb.cinder_sword_3": "シンダーソード",
+  "item.cnb.cinder_sword_4": "シンダーソード",
+
+  "item.cnb.cactem_spear": "カクテムの槍",
+
+  "item.cnb.pink_waterlily": "桃色の蓮の花",
+  "item.cnb.light_pink_waterlily": "薄桃色の蓮の花",
+  "item.cnb.yellow_waterlily": "黄色の蓮の花",
+  "block.cnb.pink_waterlily_block": "桃色の蓮の花",
+  "block.cnb.potted_pink_waterlily": "桃色の蓮の花の鉢植え",
+  "block.cnb.light_pink_waterlily_block": "薄桃色の蓮の花",
+  "block.cnb.potted_light_pink_waterlily": "薄桃色の蓮の花の鉢植え",
+  "block.cnb.yellow_waterlily_block": "黄色の蓮の花",
+  "block.cnb.potted_yellow_waterlily": "黄色の蓮の花の鉢植え",
+
+  "block.cnb.lizard_egg_block": "トカゲの卵",
+  "block.cnb.cinder_furnace": "シンダーかまど",
+
+  "item.cnb.lizard_item_desert": "トカゲ",
+  "item.cnb.lizard_item_desert_2": "トカゲ",
+  "item.cnb.lizard_item_jungle": "トカゲ",
+  "item.cnb.lizard_item_jungle_2": "トカゲ",
+  "item.cnb.lizard_item_mushroom": "トカゲ",
+
+  "item.cnb.sporeling_overworld_egg": "通常世界のスポアリングのスポーンエッグ",
+  "item.cnb.sporeling_nether_egg": "ネザースポアリングのスポーンエッグ",
+  "item.cnb.little_grebe_spawn_egg": "カイツブリのスポーンエッグ",
+  "item.cnb.lizard_spawn_egg": "トカゲのスポーンエッグ",
+  "item.cnb.cindershell_spawn_egg": "シンダーシェルのスポーンエッグ",
+  "item.cnb.cindershell_bucket": "シンダーシェル入りバケツ",
+  "item.cnb.lilytad_spawn_egg": "リリタッドのスポーンエッグ",
+  "item.cnb.yeti_spawn_egg": "イエティのスポーンエッグ",
+  "item.cnb.minipad_spawn_egg": "ミニパッドのスポーンエッグ",
+  "item.cnb.end_whale_spawn_egg": "エンドクジラのスポーンエッグ",
+  "item.cnb.cactem_spawn_egg": "カクテムのスポーンエッグ",
+
+  "entity.cnb.little_grebe": "カイツブリ",
+  "entity.cnb.little_grebe_chick": "カイツブリの雛",
+  "entity.cnb.cindershell": "シンダーシェル",
+  "entity.cnb.lizard": "トカゲ",
+  "entity.cnb.sporeling": "スポアリング",
+  "entity.cnb.yeti": "イエティ",
+  "entity.cnb.lilytad": "リリタッド",
+  "entity.cnb.minipad": "ミニパッド",
+  "entity.cnb.end_whale": "エンドクジラ",
+  "entity.cnb.cactem": "カクテム",
+
+  "entity.little_grebe_chick.ambient": "カイツブリがさえずる",
+  "entity.little_grebe.ambient": "カイツブリがさえずる",
+  "entity.little_grebe.hurt": "カイツブリがダメージを受ける",
+  "entity.lizard.egg_hatch": "トカゲの卵が孵化する",
+
+  "entity.cindershell.ambient": "シンダーシェルがうなる",
+  "entity.cindershell.hurt": "シンダーシェルがダメージを受ける",
+  "entity.cindershell.eat": "シンダーシェルが食べる",
+
+  "entity.sporeling_overworld.ambient": "スポアリングが鳴く",
+  "entity.sporeling_overworld.hurt": "スポアリングがダメージを受ける",
+  "entity.sporeling_nether.ambient": "スポアリングがうなる",
+  "entity.sporeling_nether.hurt": "敵対的なスポアリングがダメージを受ける",
+  "entity.sporeling_warped.ambient": "スポアリングが鳴く",
+  "entity.sporeling_warped.hurt": "中立的なスポアリングがダメージを受ける",
+
+  "entity.sporeling.bite": "スポアリングが噛みつく",
+  "entity.lilytad.ambient": "リリタッドが鳴く",
+  "entity.lilytad.hurt": "リリタッドがダメージを受ける",
+  "entity.lilytad.death": "リリタッドが死ぬ",
+
+  "entity.yeti.ambient": "イエティがうなる",
+  "entity.yeti.hurt": "イエティがダメージを受ける",
+  "entity.yeti.step": "イエティが歩く",
+  "entity.yeti.hit": "イエティが攻撃する",
+  "entity.yeti_adult.eat": "イエティが食べる",
+  "entity.yeti_baby.eat": "イエティの子供がムシャムシャ食べる",
+
+  "entity.minipad.hurt": "ミニパッドがダメージを受ける",
+  "entity.minipad.step": "ミニパッドが歩く",
+  "entity.minipad.swim": "ミニパッドが泳ぐ",
+
+  "entity.end_whale.ambient": "エンドクジラが呼ぶ",
+
+  "entity.cactem.ambient": "カクテムがきしむ",
+  "entity.cactem.hurt": "カクテムがダメージを受ける",
+  "entity.cactem.heal": "カクテムが呪文を唱える",
+
+  "item.heal_spell_book.player_heal": "呪文を唱える",
+  "item.cactem_spear.throw": "槍が飛ぶ",
+
+  "itemGroup.cnb_tab": "Creatures And Beasts",
+
+  "cnb.container.cinder_furnace": "シンダーかまど",
+
+  "cnb.item.tooltip.cinder_furnace": "§7Right click a Cindershell to equip"
+}

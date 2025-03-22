@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "eggs=1": [
+      {
+        "model": "cnb:block/lizard_eggs_1"
+      }
+    ],
+    "eggs=2": [
+      {
+        "model": "cnb:block/lizard_eggs_2"
+      }
+    ],
+    "eggs=3": [
+      {
+        "model": "cnb:block/lizard_eggs_3"
+      }
+    ],
+    "eggs=4": [
+      {
+        "model": "cnb:block/lizard_eggs_4"
+      }
+    ],
+    "eggs=5": [
+      {
+        "model": "cnb:block/lizard_eggs_5"
+      }
+    ],
+    "eggs=6": [
+      {
+        "model": "cnb:block/lizard_eggs_6"
+      }
+    ]
+  }
+}

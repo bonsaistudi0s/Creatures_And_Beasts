@@ -1,0 +1,106 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.baby_yeti",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "main",
+					"pivot": [0, 7.7, -2]
+				},
+				{
+					"name": "Body",
+					"parent": "main",
+					"pivot": [0, 5.5, 4.3],
+					"rotation": [67.50016, 0, 0],
+					"cubes": [
+						{"origin": [-4, 6, 1.02], "size": [8, 11, 6], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "LeftArm",
+					"parent": "Body",
+					"pivot": [3.1, 14.0939, 2.3316],
+					"rotation": [-72.50208, -5.00192, 0],
+					"cubes": [
+						{"origin": [1.7, 7.0636, 0.3567], "size": [4, 9, 4], "uv": [22, 26]}
+					]
+				},
+				{
+					"name": "RightArm",
+					"parent": "Body",
+					"pivot": [-3.1, 14.0939, 2.3316],
+					"rotation": [-72.50208, 5.00192, 0],
+					"cubes": [
+						{"origin": [-5.7, 7.0636, 0.3567], "size": [4, 9, 4], "uv": [22, 26], "mirror": true}
+					]
+				},
+                {
+                    "name": "ItemHolder",
+                    "parent": "RightArm",
+                    "pivot": [-2, 7, 4],
+                    "cubes": [
+                        {"origin": [-2, 7, 4], "size": [0, 0, 0], "uv": [0, 0]}
+                    ]
+                },
+				{
+					"name": "head_rotation",
+					"parent": "Body",
+					"pivot": [0, 16, 4.9]
+				},
+				{
+					"name": "Head",
+					"parent": "head_rotation",
+					"pivot": [0, 16.1859, 4.9864],
+					"rotation": [-67.50016, 0, 0],
+					"cubes": [
+						{"origin": [-3.5, 14.6859, 0.4864], "size": [7, 7, 6], "uv": [0, 17]}
+					]
+				},
+				{
+					"name": "cube_r1",
+					"parent": "Head",
+					"pivot": [-2, 19.6859, 2.3864],
+					"rotation": [0, 0, -54.99822],
+					"cubes": [
+						{"origin": [-2.4264, 19.8667, 1.4864], "size": [2, 3, 2], "uv": [22, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "cube_r2",
+					"parent": "Head",
+					"pivot": [2, 19.6859, 2.3864],
+					"rotation": [0, 0, 54.99822],
+					"cubes": [
+						{"origin": [0.4264, 19.8667, 1.4864], "size": [2, 3, 2], "uv": [22, 0]}
+					]
+				},
+				{
+					"name": "Lleg",
+					"parent": "main",
+					"pivot": [3.2, 5.1, 2.5],
+					"rotation": [0, 0, -5.00192],
+					"cubes": [
+						{"origin": [1.7, -0.0303, 0.6251], "size": [3, 6, 4], "uv": [24, 13]}
+					]
+				},
+				{
+					"name": "Rleg",
+					"parent": "main",
+					"pivot": [-3.2, 5.1, 2.5],
+					"rotation": [0, 0, 5.00192],
+					"cubes": [
+						{"origin": [-4.7, -0.0303, 0.6251], "size": [3, 6, 4], "uv": [24, 13], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

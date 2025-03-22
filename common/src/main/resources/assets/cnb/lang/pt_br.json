@@ -1,0 +1,120 @@
+{
+  "item.cnb.cindershell_shell_shard": "Casco de Casca de lava",
+  "item.cnb.apple_slice": "Maçã Fatiada",
+  "item.cnb.lizard_egg": "Ovo de lagarto",
+  "item.cnb.entity_net": "Rede",
+  "item.cnb.yeti_antler": "Chifre de Yeti",
+  "item.cnb.yeti_hide": "Couro de Yeti",
+
+  "item.cnb.pink_minipad_flower": "Flor de Miniregia rosa",
+  "item.cnb.light_pink_minipad_flower": "Flor de Miniregia rosa claro",
+  "item.cnb.yellow_minipad_flower": "Flor de Miniregia amarelo",
+  "item.cnb.pink_minipad_flower_glow": "Flor de Miniregia rosa brilhante",
+  "item.cnb.light_pink_minipad_flower_glow": "Flor de Miniregia rosa claro brilhante",
+  "item.cnb.yellow_minipad_flower_glow": "Flor de Miniregia amarelo brilhante",
+
+  "item.cnb.heal_spell_book_1": "Livro de magia de cura",
+  "item.cnb.heal_spell_book_2": "Livro de magia de cura",
+  "item.cnb.heal_spell_book_3": "Livro de magia de cura",
+
+  "item.cnb.flower_crown": "Coroa de flores",
+  "item.cnb.glowing_flower_crown": "Coroa de flores brilhantes",
+  "item.cnb.sporeling_backpack": "Mochila de FungoLing",
+
+  "item.cnb.cinder_sword": "Espada de Casca de lava",
+  "item.cnb.cinder_sword_1": "Espada de Casca de lava",
+  "item.cnb.cinder_sword_2": "Espada de Casca de lava",
+  "item.cnb.cinder_sword_3": "Espada de Casca de lava",
+  "item.cnb.cinder_sword_4": "Espada de Casca de lava",
+
+  "item.cnb.cactem_spear": "Lança de cactom",
+
+  "item.cnb.pink_waterlily": "ÁguaRégia rosa",
+  "item.cnb.light_pink_waterlily": "ÁguaRégia rosa claro",
+  "item.cnb.yellow_waterlily": "ÁguaRégia amarelo",
+  "block.cnb.pink_waterlily_block": "ÁguaRégia rosa",
+  "block.cnb.potted_pink_waterlily": "ÁguaRégia rosa pintado",
+  "block.cnb.light_pink_waterlily_block": "ÁguaRégia rosa claro",
+  "block.cnb.potted_light_pink_waterlily": "ÁguaRégia rosa claro pintado",
+  "block.cnb.yellow_waterlily_block": "ÁguaRégia amarelo",
+  "block.cnb.potted_yellow_waterlily": "ÁguaRégia amarelo pintado",
+
+  "block.cnb.lizard_egg_block": "Bloco de ovo de lagarto",
+  "block.cnb.cinder_furnace": "Fornalha de Casca de lava",
+
+  "item.cnb.lizard_item_desert": "Lagarto",
+  "item.cnb.lizard_item_desert_2": "Lagarto",
+  "item.cnb.lizard_item_jungle": "Lagarto",
+  "item.cnb.lizard_item_jungle_2": "Lagarto",
+  "item.cnb.lizard_item_mushroom": "Lagarto",
+
+  "item.cnb.sporeling_overworld_egg": "Ovo gerador de FungoLing do Overworld",
+  "item.cnb.sporeling_nether_egg": "Ovo gerador de FungoLing do Nether",
+  "item.cnb.little_grebe_spawn_egg": "Ovo gerador de Grebe Pequena",
+  "item.cnb.lizard_spawn_egg": "Ovo gerador de Lagarto",
+  "item.cnb.cindershell_spawn_egg": "Ovo gerador de Casca de lava",
+  "item.cnb.cindershell_bucket": "Balde de Casca de lava",
+  "item.cnb.lilytad_spawn_egg": "Ovo gerador de ÁguaRégia",
+  "item.cnb.yeti_spawn_egg": "Ovo gerador de Yeti",
+  "item.cnb.minipad_spawn_egg": "Ovo gerador de MiniRégia",
+  "item.cnb.end_whale_spawn_egg": "Ovo gerador de Baleia do fim",
+  "item.cnb.cactem_spawn_egg": "Ovo gerador de Cactom",
+
+  "entity.cnb.little_grebe": "Grebe Pequena",
+  "entity.cnb.little_grebe_chick": "Grebe Pequena Filhote",
+  "entity.cnb.cindershell": "Casca de lava",
+  "entity.cnb.lizard": "Lagarto",
+  "entity.cnb.sporeling": "FungoLing",
+  "entity.cnb.yeti": "Yeti",
+  "entity.cnb.lilytad": "Régiatad",
+  "entity.cnb.minipad": "MiniRégia",
+  "entity.cnb.end_whale": "Baleia do fim",
+  "entity.cnb.cactem": "Cactom",
+
+  "entity.little_grebe_chick.ambient": "Grebe pequena canta",
+  "entity.little_grebe.ambient": "Grebe pequena assobia",
+  "entity.little_grebe.hurt": "Grebe pequena machucada",
+  "entity.lizard.egg_hatch": "Lagarto nasce do ovo",
+
+  "entity.cindershell.ambient": "Casca de lava rosna",
+  "entity.cindershell.hurt": "Casca de lava machudado",
+  "entity.cindershell.eat": "Casca de lava come",
+
+  "entity.sporeling_overworld.ambient": "FungoLing grita",
+  "entity.sporeling_overworld.hurt": "FungoLing machucado",
+  "entity.sporeling_nether.ambient": "FungoLing rosna",
+  "entity.sporeling_nether.hurt": "FungoLing Hostil machucado",
+  "entity.sporeling_warped.ambient": "FungoLing grita",
+  "entity.sporeling_warped.hurt": "FungoLing Neutro machucado",
+
+  "entity.sporeling.bite": "FungoLing morde",
+  "entity.lilytad.ambient": "RégiaTad assobia",
+  "entity.lilytad.hurt": "RégiaTad machucado",
+  "entity.lilytad.death": "RégiaTad morre",
+
+  "entity.yeti.ambient": "Yeti rosna",
+  "entity.yeti.hurt": "Yeti machucado",
+  "entity.yeti.step": "Yeti anda",
+  "entity.yeti.hit": "Yeti ataca",
+  "entity.yeti_adult.eat": "Yeti come",
+  "entity.yeti_baby.eat": "Yeti bebê morde",
+
+  "entity.minipad.hurt": "MiniRégia machucado",
+  "entity.minipad.step": "MiniRégia anda",
+  "entity.minipad.swim": "MiniRégia nada",
+
+  "entity.end_whale.ambient": "Baleia do fim canta",
+
+  "entity.cactem.ambient": "Cactom quebra",
+  "entity.cactem.hurt": "Cactom machucado",
+  "entity.cactem.heal": "Cactom faz mágica",
+
+  "item.heal_spell_book.player_heal": "Magia está feita",
+  "item.cactem_spear.throw": "Lança voa",
+
+  "itemGroup.cnb_tab": "Criaturas e bestas",
+
+  "cnb.container.cinder_furnace": "Fornalha de Casca de lava",
+
+  "cnb.item.tooltip.cinder_furnace": "§7Clique em um Casca de lava com o botão direito para equipar"
+}

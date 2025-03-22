@@ -1,0 +1,120 @@
+{
+  "item.cnb.cindershell_shell_shard": "Schlackenschildkröten Panzer Splitter",
+  "item.cnb.apple_slice": "Apfelspalte",
+  "item.cnb.lizard_egg": "Eidechsen Ei",
+  "item.cnb.entity_net": "Kescher",
+  "item.cnb.yeti_antler": "Yeti Geweih",
+  "item.cnb.yeti_hide": "Yeti Fell",
+
+  "item.cnb.pink_minipad_flower": "Kleine rosa Seerosenblüte",
+  "item.cnb.light_pink_minipad_flower": "Kleine zartrosa Seerosenblüte",
+  "item.cnb.yellow_minipad_flower": "Kleine gelbe Seerosenblüte",
+  "item.cnb.pink_minipad_flower_glow": "Kleine schimmernde rosa Seerosenblüte",
+  "item.cnb.light_pink_minipad_flower_glow": "Kleine zartrosa schimmernde Seerosenblüte",
+  "item.cnb.yellow_minipad_flower_glow": "Kleine gelbe schimmernde Seerosenblüte",
+
+  "item.cnb.heal_spell_book_1": "Verzaubertes Buch der Heilung I",
+  "item.cnb.heal_spell_book_2": "Verzaubertes Buch der Heilung II",
+  "item.cnb.heal_spell_book_3": "Verzaubertes Buch der Heilung III",
+
+  "item.cnb.flower_crown": "Blumenkranz-Krone",
+  "item.cnb.glowing_flower_crown": "Schimmernde Blumenkranz-Krone",
+  "item.cnb.sporeling_backpack": "Pilzling Rucksack",
+
+  "item.cnb.cinder_sword": "Schlackenschwert",
+  "item.cnb.cinder_sword_1": "Schlackenschwert",
+  "item.cnb.cinder_sword_2": "Schlackenschwert",
+  "item.cnb.cinder_sword_3": "Schlackenschwert",
+  "item.cnb.cinder_sword_4": "Schlackenschwert",
+
+  "item.cnb.cactem_spear": "Kaktem Speer",
+
+  "item.cnb.pink_waterlily": "Rosa Seerosenblüte",
+  "item.cnb.light_pink_waterlily": "Zartrosa Seerosenblüte",
+  "item.cnb.yellow_waterlily": "Gelbe Seerosenblüte",
+  "block.cnb.pink_waterlily_block": "Rosa Seerosenblüten Block",
+  "block.cnb.potted_pink_waterlily": "Eingetopfte rosa Seerosenblüte",
+  "block.cnb.light_pink_waterlily_block": "Zartrosa Seerosenblüten Block",
+  "block.cnb.potted_light_pink_waterlily": "Eingetopfte zartrosa Seerosenblüte",
+  "block.cnb.yellow_waterlily_block": "Gelbe Seerosenblüten Block",
+  "block.cnb.potted_yellow_waterlily": "Eingetopfte gelbe Seerosenblüte",
+
+  "block.cnb.lizard_egg_block": "Eidechsen Ei Block",
+  "block.cnb.cinder_furnace": "Schlacke Ofen",
+
+  "item.cnb.lizard_item_desert": "Eidechse",
+  "item.cnb.lizard_item_desert_2": "Eidechse",
+  "item.cnb.lizard_item_jungle": "Eidechse",
+  "item.cnb.lizard_item_jungle_2": "Eidechse",
+  "item.cnb.lizard_item_mushroom": "Eidechse",
+
+  "item.cnb.sporeling_overworld_egg": "Pilzling-Spawn-Ei",
+  "item.cnb.sporeling_nether_egg": "Netherpilzling-Spawn-Ei",
+  "item.cnb.little_grebe_spawn_egg": "Lappentaucher-Spawn-Ei",
+  "item.cnb.lizard_spawn_egg": "Eidechsen-Spawn-Ei",
+  "item.cnb.cindershell_spawn_egg": "Schlackenschildkröten-Spawn-Ei",
+  "item.cnb.cindershell_bucket": "Schlackenschildkröte im Eimer",
+  "item.cnb.lilytad_spawn_egg": "Nymphling-Spawn-Ei",
+  "item.cnb.yeti_spawn_egg": "Yeti-Spawn-Ei",
+  "item.cnb.minipad_spawn_egg": "Lotolotl-Spawn-Ei",
+  "item.cnb.end_whale_spawn_egg": "End Wal-Spawn-Ei",
+  "item.cnb.cactem_spawn_egg": "Kaktem-Spawn-Ei",
+
+  "entity.cnb.little_grebe": "Lappentaucher",
+  "entity.cnb.little_grebe_chick": "Lappentaucher Küken",
+  "entity.cnb.cindershell": "Schlackenschildkröte",
+  "entity.cnb.lizard": "Eidechse",
+  "entity.cnb.sporeling": "Pilzling",
+  "entity.cnb.yeti": "Yeti",
+  "entity.cnb.lilytad": "Nymphling",
+  "entity.cnb.minipad": "Lotolotl",
+  "entity.cnb.end_whale": "End Wal",
+  "entity.cnb.cactem": "Kaktem",
+
+  "entity.little_grebe_chick.ambient": "Lappentaucher Küken piept",
+  "entity.little_grebe.ambient": "Lappentaucher zwitschert",
+  "entity.little_grebe.hurt": "Lappentaucher nimmt Schaden",
+  "entity.lizard.egg_hatch": "Eidechse schlüpft",
+
+  "entity.cindershell.ambient": "Schlackenschildkröte knurrt",
+  "entity.cindershell.hurt": "Schlackenschildkröte nimmt Schaden",
+  "entity.cindershell.eat": "Schlackenschildkröte frisst",
+
+  "entity.sporeling_overworld.ambient": "Pilzling fiept",
+  "entity.sporeling_overworld.hurt": "Pilzling nimmt Schaden",
+  "entity.sporeling_nether.ambient": "Pilzling knurrt",
+  "entity.sporeling_nether.hurt": "Pilzling nimmt Schaden",
+  "entity.sporeling_warped.ambient": "Pilzling ist amüsiert",
+  "entity.sporeling_warped.hurt": "Pilzling ruft um Hilfe!",
+
+  "entity.sporeling.bite": "Pilzling beißt",
+  "entity.lilytad.ambient": "Nymphling zwitschert",
+  "entity.lilytad.hurt": "Nymphling nimmt Schaden",
+  "entity.lilytad.death": "Nymphling stirbt",
+
+  "entity.yeti.ambient": "Yeti schnauft",
+  "entity.yeti.hurt": "Yeti stöhnt",
+  "entity.yeti.step": "Yeti stapft",
+  "entity.yeti.hit": "Yeti schlägt",
+  "entity.yeti_adult.eat": "Yeti frisst",
+  "entity.yeti_baby.eat": "Kleiner Yeti frisst",
+
+  "entity.minipad.hurt": "Lotolotl nimmt schaden",
+  "entity.minipad.step": "Schritte",
+  "entity.minipad.swim": "Lotolotl schwimmt",
+
+  "entity.end_whale.ambient": "End Wal singt",
+
+  "entity.cactem.ambient": "Kaktem knarzt",
+  "entity.cactem.hurt": "Kaktem nimmt Schaden",
+  "entity.cactem.heal": "Kaktem wächst nach",
+
+  "item.heal_spell_book.player_heal": "Zauber wirkt",
+  "item.cactem_spear.throw": "Speer fliegt",
+
+  "itemGroup.cnb_tab": "Kreaturen und Bestien",
+
+  "cnb.container.cinder_furnace": "Schlacke Ofen",
+
+  "cnb.item.tooltip.cinder_furnace": "\u00A77Kliknij Rechtsklick auf eine Schlackenschildkröte zum ausrüsten"
+}

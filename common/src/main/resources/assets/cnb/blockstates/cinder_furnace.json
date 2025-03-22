@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "cnb:block/cinder_furnace",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "cnb:block/cinder_furnace"
+    },
+    "facing=south": {
+      "model": "cnb:block/cinder_furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cnb:block/cinder_furnace",
+      "y": 270
+    }
+  }
+}

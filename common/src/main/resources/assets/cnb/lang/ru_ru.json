@@ -1,0 +1,120 @@
+{
+  "item.cnb.cindershell_shell_shard": "Осколок пепельного панциря",
+  "item.cnb.apple_slice": "Ломтики яблока",
+  "item.cnb.lizard_egg": "Яйцо ящерицы",
+  "item.cnb.entity_net": "Сачок",
+  "item.cnb.yeti_antler": "Рог йети",
+  "item.cnb.yeti_hide": "Шкура йети",
+
+  "item.cnb.pink_minipad_flower": "Розовый цветок кувшиночки",
+  "item.cnb.light_pink_minipad_flower": "Светло-розовый цветок кувшиночки",
+  "item.cnb.yellow_minipad_flower": "Жёлтый цветок кувшиночки",
+  "item.cnb.pink_minipad_flower_glow": "Розовый светящийся цветок кувшиночки",
+  "item.cnb.light_pink_minipad_flower_glow": "Светло-розовый светящийся цветок кувшиночки",
+  "item.cnb.yellow_minipad_flower_glow": "Жёлтый светящийся цветок кувшиночкиr",
+
+  "item.cnb.heal_spell_book_1": "Книга заклинания исцеления",
+  "item.cnb.heal_spell_book_2": "Книга заклинания исцеления",
+  "item.cnb.heal_spell_book_3": "Книга заклинания исцеления",
+
+  "item.cnb.flower_crown": "Цветочная корона",
+  "item.cnb.glowing_flower_crown": "Светящаяся цветочная корона",
+  "item.cnb.sporeling_backpack": "Рюкзак для грибочка",
+
+  "item.cnb.cinder_sword": "Пепельный меч",
+  "item.cnb.cinder_sword_1": "Пепельный меч",
+  "item.cnb.cinder_sword_2": "Пепельный меч",
+  "item.cnb.cinder_sword_3": "Пепельный меч",
+  "item.cnb.cinder_sword_4": "Пепельный меч",
+
+  "item.cnb.cactem_spear": "Копьё кактема",
+
+  "item.cnb.pink_waterlily": "Розовая водяная лилия",
+  "item.cnb.light_pink_waterlily": "Светло-розовая водяная лилия",
+  "item.cnb.yellow_waterlily": "Жёлтая водяная лилия",
+  "block.cnb.pink_waterlily_block": "Розовая водяная лилия",
+  "block.cnb.potted_pink_waterlily": "Розовая водяная лилия в горшке",
+  "block.cnb.light_pink_waterlily_block": "Светло-розовая водяная лилия",
+  "block.cnb.potted_light_pink_waterlily": "Светло-розовая водяная лилия в горшке",
+  "block.cnb.yellow_waterlily_block": "Жёлтая водяная лилия",
+  "block.cnb.potted_yellow_waterlily": "Жёлтая водяная лилия в горшке",
+
+  "block.cnb.lizard_egg_block": "Яйцо ящерицы",
+  "block.cnb.cinder_furnace": "Пепельная печь",
+
+  "item.cnb.lizard_item_desert": "Ящерица",
+  "item.cnb.lizard_item_desert_2": "Ящерица",
+  "item.cnb.lizard_item_jungle": "Ящерица",
+  "item.cnb.lizard_item_jungle_2": "Ящерица",
+  "item.cnb.lizard_item_mushroom": "Ящерица",
+
+  "item.cnb.sporeling_overworld_egg": "Яйцо призыва грибочка Верхнего мира",
+  "item.cnb.sporeling_nether_egg": "Яйцо призыва незерского грибочка",
+  "item.cnb.little_grebe_spawn_egg": "Яйцо призыва малой поганки",
+  "item.cnb.lizard_spawn_egg": "Яйцо призыва ящерицы",
+  "item.cnb.cindershell_spawn_egg": "Яйцо призыва пеплопанциря",
+  "item.cnb.cindershell_bucket": "Пеплопанцирь в ведре",
+  "item.cnb.lilytad_spawn_egg": "Яйцо призыва кувшиночки",
+  "item.cnb.yeti_spawn_egg": "Яйцо призыва йети",
+  "item.cnb.minipad_spawn_egg": "Яйцо призыва маленькой кувшиночки",
+  "item.cnb.end_whale_spawn_egg": "Яйцо призыва эндер-кита",
+  "item.cnb.cactem_spawn_egg": "Яйцо призыва кактема",
+
+  "entity.cnb.little_grebe": "Малая поганка",
+  "entity.cnb.little_grebe_chick": "Цыплёнок малой поганки",
+  "entity.cnb.cindershell": "Пеплопанцирь",
+  "entity.cnb.lizard": "Ящерица",
+  "entity.cnb.sporeling": "Грибочек",
+  "entity.cnb.yeti": "Йети",
+  "entity.cnb.lilytad": "Кувшиночник",
+  "entity.cnb.minipad": "Кувшиночка",
+  "entity.cnb.end_whale": "Эндер-кит",
+  "entity.cnb.cactem": "Кактем",
+
+  "entity.little_grebe_chick.ambient": "Малая поганка пищит",
+  "entity.little_grebe.ambient": "Малая поганка пищит",
+  "entity.little_grebe.hurt": "Малая поганка ранена",
+  "entity.lizard.egg_hatch": "Ящерица вылупляется",
+
+  "entity.cindershell.ambient": "Пеплопанцирь рычит",
+  "entity.cindershell.hurt": "Пеплопанцирь ранен",
+  "entity.cindershell.eat": "Пеплопанцирь ест",
+
+  "entity.sporeling_overworld.ambient": "Грибочек пищит",
+  "entity.sporeling_overworld.hurt": "Грибочек ранен",
+  "entity.sporeling_nether.ambient": "Грибочек рычит",
+  "entity.sporeling_nether.hurt": "Враждебный грибочек ранен",
+  "entity.sporeling_warped.ambient": "Грибочек пищит",
+  "entity.sporeling_warped.hurt": "Нейтральный грибочек ранен",
+
+  "entity.sporeling.bite": "Грибочек кусается",
+  "entity.lilytad.ambient": "Кувшиночник стрекочет",
+  "entity.lilytad.hurt": "Кувшиночник ранен",
+  "entity.lilytad.death": "Кувшиночник погибает",
+
+  "entity.yeti.ambient": "Йети рычит",
+  "entity.yeti.hurt": "Йети ранен",
+  "entity.yeti.step": "Йети ходит",
+  "entity.yeti.hit": "Йети атакует",
+  "entity.yeti_adult.eat": "Ети ест",
+  "entity.yeti_baby.eat": "Малыш йети чавкает",
+
+  "entity.minipad.hurt": "Кувшиночка ранена",
+  "entity.minipad.step": "Кувшиночка ходит",
+  "entity.minipad.swim": "Кувшиночка плавает",
+
+  "entity.end_whale.ambient": "Эндер-кит поёт",
+
+  "entity.cactem.ambient": "Кактем скрежещет",
+  "entity.cactem.hurt": "Кактем ранен",
+  "entity.cactem.heal": "Кактем колдует",
+
+  "item.heal_spell_book.player_heal": "Произносится заклинание",
+  "item.cactem_spear.throw": "Копьё пролетает",
+
+  "itemGroup.cnb_tab": "Creatures And Beasts",
+
+  "cnb.container.cinder_furnace": "Пепельная печь",
+
+  "cnb.item.tooltip.cinder_furnace": "§7Нажмите ПКМ на пеплопанцире, чтобы экипировать"
+}
