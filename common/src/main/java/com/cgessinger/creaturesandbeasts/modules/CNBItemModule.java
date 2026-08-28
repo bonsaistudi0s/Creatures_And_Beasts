@@ -7,8 +7,6 @@ import com.helliongames.hellionsapi.registration.registries.HellionsAPIItemRegis
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.Mob;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
@@ -106,49 +104,49 @@ public class CNBItemModule {
 
     // Spawn Eggs
     public static ItemDataHolder<?> GREBE_SPAWN_EGG = ITEMS.register("little_grebe_spawn_egg",
-            ItemDataHolder.of(() -> new SpawnEggItem((EntityType<? extends Mob>) CNBEntityModule.LITTLE_GREBE.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties())));
+            ItemDataHolder.of(() -> new SpawnEggItem(CNBEntityModule.LITTLE_GREBE.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties())));
 
     public static ItemDataHolder<?> CINDERSHELL_SPAWN_EGG = ITEMS.register("cindershell_spawn_egg",
-            ItemDataHolder.of(() -> new SpawnEggItem((EntityType<? extends Mob>) CNBEntityModule.CINDERSHELL.get(), 0x0D0403, 0xC64500, new Item.Properties())));
+            ItemDataHolder.of(() -> new SpawnEggItem(CNBEntityModule.CINDERSHELL.get(), 0x0D0403, 0xC64500, new Item.Properties())));
 
     public static ItemDataHolder<?> LILYTAD_SPAWN_EGG = ITEMS.register("lilytad_spawn_egg",
-            ItemDataHolder.of(() -> new SpawnEggItem((EntityType<? extends Mob>) CNBEntityModule.LILYTAD.get(), 0x37702E, 0x102417, new Item.Properties())));
+            ItemDataHolder.of(() -> new SpawnEggItem(CNBEntityModule.LILYTAD.get(), 0x37702E, 0x102417, new Item.Properties())));
 
     public static ItemDataHolder<?> YETI_SPAWN_EGG = ITEMS.register("yeti_spawn_egg",
-            ItemDataHolder.of(() -> new SpawnEggItem((EntityType<? extends Mob>) CNBEntityModule.YETI.get(), 0xD7E1E7, 0x887E96, new Item.Properties())));
+            ItemDataHolder.of(() -> new SpawnEggItem(CNBEntityModule.YETI.get(), 0xD7E1E7, 0x887E96, new Item.Properties())));
 
     public static ItemDataHolder<?> MINIPAD_SPAWN_EGG = ITEMS.register("minipad_spawn_egg",
-            ItemDataHolder.of(() -> new SpawnEggItem((EntityType<? extends Mob>) CNBEntityModule.MINIPAD.get(), 0x3EA62E, 0x194F28, new Item.Properties())));
+            ItemDataHolder.of(() -> new SpawnEggItem(CNBEntityModule.MINIPAD.get(), 0x3EA62E, 0x194F28, new Item.Properties())));
 
     public static ItemDataHolder<?> LIZARD_SPAWN_EGG = ITEMS.register("lizard_spawn_egg",
-            ItemDataHolder.of(() -> new SpawnEggItem((EntityType<? extends Mob>) CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties())));
+            ItemDataHolder.of(() -> new SpawnEggItem(CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties())));
 
     public static ItemDataHolder<?> END_WHALE_SPAWN_EGG = ITEMS.register("end_whale_spawn_egg",
-            ItemDataHolder.of(() -> new SpawnEggItem((EntityType<? extends Mob>) CNBEntityModule.END_WHALE.get(), 0x5609AD, 0xD4AD5F, new Item.Properties())));
+            ItemDataHolder.of(() -> new SpawnEggItem(CNBEntityModule.END_WHALE.get(), 0x5609AD, 0xD4AD5F, new Item.Properties())));
 
     public static ItemDataHolder<?> CACTEM_SPAWN_EGG = ITEMS.register("cactem_spawn_egg",
-            ItemDataHolder.of(() -> new SpawnEggItem((EntityType<? extends Mob>) CNBEntityModule.CACTEM.get(), 0x1A6E23, 0xDCEBAB, new Item.Properties())));
+            ItemDataHolder.of(() -> new SpawnEggItem(CNBEntityModule.CACTEM.get(), 0x1A6E23, 0xDCEBAB, new Item.Properties())));
 
     public static ItemDataHolder<?> LIZARD_ITEM_DESERT = ITEMS.register("lizard_item_desert",
-            ItemDataHolder.of(() -> new LizardItem((EntityType<? extends Mob>) CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties(), CNBLizardTypeModule.DESERT)));
+            ItemDataHolder.of(() -> new LizardItem(CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties(), CNBLizardTypeModule.DESERT)));
 
     public static ItemDataHolder<?> LIZARD_ITEM_DESERT_2 = ITEMS.register("lizard_item_desert_2",
-            ItemDataHolder.of(() -> new LizardItem((EntityType<? extends Mob>) CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties(), CNBLizardTypeModule.DESERT_2)));
+            ItemDataHolder.of(() -> new LizardItem(CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties(), CNBLizardTypeModule.DESERT_2)));
 
     public static ItemDataHolder<?> LIZARD_ITEM_JUNGLE = ITEMS.register("lizard_item_jungle",
-            ItemDataHolder.of(() -> new LizardItem((EntityType<? extends Mob>) CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties(), CNBLizardTypeModule.JUNGLE)));
+            ItemDataHolder.of(() -> new LizardItem(CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties(), CNBLizardTypeModule.JUNGLE)));
 
     public static ItemDataHolder<?> LIZARD_ITEM_JUNGLE_2 = ITEMS.register("lizard_item_jungle_2",
-            ItemDataHolder.of(() -> new LizardItem((EntityType<? extends Mob>) CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties(), CNBLizardTypeModule.JUNGLE_2)));
+            ItemDataHolder.of(() -> new LizardItem(CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties(), CNBLizardTypeModule.JUNGLE_2)));
 
     public static ItemDataHolder<?> LIZARD_ITEM_MUSHROOM = ITEMS.register("lizard_item_mushroom",
-            ItemDataHolder.of(() -> new LizardItem((EntityType<? extends Mob>) CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties(), CNBLizardTypeModule.MUSHROOM)));
+            ItemDataHolder.of(() -> new LizardItem(CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties(), CNBLizardTypeModule.MUSHROOM)));
 
     public static ItemDataHolder<?> SPORELING_OVERWORLD_EGG = ITEMS.register("sporeling_overworld_egg",
-            ItemDataHolder.of(() -> new SporelingSpawnEggItem((EntityType<? extends Mob>) CNBEntityModule.SPORELING.get(), 0xDE0942, 0xFFEBC4, new Item.Properties())));
+            ItemDataHolder.of(() -> new SporelingSpawnEggItem(CNBEntityModule.SPORELING.get(), 0xDE0942, 0xFFEBC4, new Item.Properties())));
 
     public static ItemDataHolder<?> SPORELING_NETHER_EGG = ITEMS.register("sporeling_nether_egg",
-            ItemDataHolder.of(() -> new SporelingSpawnEggItem((EntityType<? extends Mob>) CNBEntityModule.SPORELING.get(), 0xBF2828, 0xFF9245, new Item.Properties())));
+            ItemDataHolder.of(() -> new SporelingSpawnEggItem(CNBEntityModule.SPORELING.get(), 0xBF2828, 0xFF9245, new Item.Properties())));
 
     // Block Items
     public static ItemDataHolder<?> CINDERSHELL_FURNACE = ITEMS.register("cinder_furnace",

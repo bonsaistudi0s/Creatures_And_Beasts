@@ -20,6 +20,12 @@ public class CNBDataComponentTypeModule {
             DataComponentType.<Integer>builder().persistent(ExtraCodecs.POSITIVE_INT).build()
     );
 
+    public static final DataComponentType<Integer> HIDE_LEVEL = Registry.register(
+            BuiltInRegistries.DATA_COMPONENT_TYPE,
+            ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "hide_level"),
+            DataComponentType.<Integer>builder().persistent(ExtraCodecs.POSITIVE_INT).build()
+    );
+
     // Called in the mod initializer / constructor in order to make sure that items are registered
     public static void load() {}
 }

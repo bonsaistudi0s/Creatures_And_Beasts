@@ -1,6 +1,5 @@
 package com.cgessinger.creaturesandbeasts.modules;
 
-import com.cgessinger.creaturesandbeasts.CreaturesAndBeastsCommon;
 import com.cgessinger.creaturesandbeasts.CreaturesAndBeastsConstants;
 import com.helliongames.hellionsapi.registration.holders.ArmorMaterialDataHolder;
 import com.helliongames.hellionsapi.registration.registries.HellionsAPIArmorMaterialRegistry;
@@ -27,7 +26,7 @@ public class CNBArmorMaterialModule {
             5,
             SoundEvents.ARMOR_EQUIP_LEATHER,
             () -> Ingredient.EMPTY,
-            List.of(new ArmorMaterial.Layer(ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "flower_crown"))),
+            List.of(new ArmorMaterial.Layer(ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "flower_crown"))),
             0.0f,
             0.0f))
     );
@@ -42,7 +41,7 @@ public class CNBArmorMaterialModule {
             2,
             SoundEvents.ARMOR_EQUIP_LEATHER,
             () -> Ingredient.of(Items.LEATHER),
-            List.of(new ArmorMaterial.Layer(ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "sporeling_backpack"))),
+            List.of(new ArmorMaterial.Layer(ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "sporeling_backpack"))),
             0.0F,
             0.0F))
     );

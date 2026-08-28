@@ -15,8 +15,6 @@ import net.minecraft.world.item.crafting.RecipeHolder;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.item.crafting.SingleRecipeInput;
 import net.minecraft.world.level.Level;
-import net.neoforged.api.distmarker.Dist;
-import net.neoforged.api.distmarker.OnlyIn;
 
 public class CinderFurnaceMenu extends RecipeBookMenu<SingleRecipeInput, AbstractCookingRecipe> {
     public static final int INGREDIENT_SLOT = 0;
@@ -143,7 +141,7 @@ public class CinderFurnaceMenu extends RecipeBookMenu<SingleRecipeInput, Abstrac
     }
 
     protected boolean canSmelt(ItemStack stack) {
-        return this.level.getRecipeManager().getRecipeFor(this.recipeType, new SimpleContainer(stack), this.level).isPresent();
+        return this.level.getRecipeManager().getRecipeFor(this.recipeType, new SingleRecipeInput(stack), this.level).isPresent();
     }
 
     public RecipeBookType getRecipeBookType() {
@@ -154,7 +152,6 @@ public class CinderFurnaceMenu extends RecipeBookMenu<SingleRecipeInput, Abstrac
         return this.recipeType;
     }
 
-    @OnlyIn(Dist.CLIENT)
     public int getCookingProgress() {
         int i = this.data.get(0);
         int j = this.data.get(1);

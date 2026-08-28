@@ -233,6 +233,7 @@ public class CactemEntity extends AgeableMob implements RangedAttackMob, GeoEnti
     @Override
     public void performRangedAttack(LivingEntity entity, float damage) {
         ItemStack itemstack = this.getProjectile(this.getItemInHand(this.getUsedItemHand()));
+        if (itemstack.isEmpty()) itemstack = new ItemStack(CNBItemModule.CACTEM_SPEAR.get());
         ThrownCactemSpearEntity spearEntity = new ThrownCactemSpearEntity(this.level(), this, itemstack);
         double d0 = entity.getX() - this.getX();
         double d1 = entity.getY(0.3333333333333333D) - spearEntity.getY();
@@ -383,7 +384,7 @@ public class CactemEntity extends AgeableMob implements RangedAttackMob, GeoEnti
             state.getController().setAnimation(HEAL);
         } else if (this.isTrading()) {
             state.getController().setAnimation(ADMIRE);
-        } else if (!state.isMoving()) {
+        } else if (state.isMoving()) {
             if (this.isElder()) {
                 state.getController().setAnimation(ELDER_WALK);
             } else if (this.isBaby()) {

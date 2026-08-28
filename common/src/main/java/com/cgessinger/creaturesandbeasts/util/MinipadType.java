@@ -1,5 +1,6 @@
 package com.cgessinger.creaturesandbeasts.util;
 
+import com.helliongames.hellionsapi.registration.holders.ParticleDataHolder;
 import com.mojang.datafixers.util.Pair;
 import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.resources.ResourceLocation;
@@ -19,21 +20,21 @@ public class MinipadType {
     private Pair<ResourceLocation, ResourceLocation> textures;
     private Supplier<Item> shearItem;
     private Supplier<Item> glowShearItem;
-    private Supplier<SimpleParticleType> particle;
+    private ParticleDataHolder<SimpleParticleType> particle;
 
-    public MinipadType(@Nullable Item shearItem, @Nullable Item glowShearItem, ResourceLocation id, ResourceLocation texture, ResourceLocation glowTexture, Supplier<SimpleParticleType> particle) {
+    public MinipadType(@Nullable Item shearItem, @Nullable Item glowShearItem, ResourceLocation id, ResourceLocation texture, ResourceLocation glowTexture, ParticleDataHolder<SimpleParticleType> particle) {
         this(shearItem, glowShearItem, id, Pair.of(texture, glowTexture), particle);
     }
 
-    public MinipadType(@Nullable Supplier<Item> shearItem, @Nullable Supplier<Item> glowShearItem, ResourceLocation id, ResourceLocation texture, ResourceLocation glowTexture, Supplier<SimpleParticleType> particle) {
+    public MinipadType(@Nullable Supplier<Item> shearItem, @Nullable Supplier<Item> glowShearItem, ResourceLocation id, ResourceLocation texture, ResourceLocation glowTexture, ParticleDataHolder<SimpleParticleType> particle) {
         this(shearItem, glowShearItem, id, Pair.of(texture, glowTexture), particle);
     }
 
-    public MinipadType(@Nullable Item shearItem, @Nullable Item glowShearItem, ResourceLocation id, Pair<ResourceLocation, ResourceLocation> textures, Supplier<SimpleParticleType> particle) {
+    public MinipadType(@Nullable Item shearItem, @Nullable Item glowShearItem, ResourceLocation id, Pair<ResourceLocation, ResourceLocation> textures, ParticleDataHolder<SimpleParticleType> particle) {
         this(() -> shearItem, () -> glowShearItem, id, textures, particle);
     }
 
-    public MinipadType(@Nullable Supplier<Item> shearItem, @Nullable Supplier<Item> glowShearItem, ResourceLocation id, Pair<ResourceLocation, ResourceLocation> textures, Supplier<SimpleParticleType> particle) {
+    public MinipadType(@Nullable Supplier<Item> shearItem, @Nullable Supplier<Item> glowShearItem, ResourceLocation id, Pair<ResourceLocation, ResourceLocation> textures, ParticleDataHolder<SimpleParticleType> particle) {
         this.id = id;
         this.textures = textures;
         this.shearItem = shearItem;
@@ -89,13 +90,13 @@ public class MinipadType {
         return this.textures.getSecond();
     }
 
-    public void setParticle(SimpleParticleType particle) {
-        this.particle = () -> particle;
+    public void setParticle(ParticleDataHolder<SimpleParticleType> particle) {
+        this.particle = particle;
     }
 
     @CheckForNull
     public SimpleParticleType getParticle() {
-        return this.particle.get();
+        return (SimpleParticleType) this.particle.get();
     }
 
     public void setGlowTextureLocation(ResourceLocation glowTextureLocation) {

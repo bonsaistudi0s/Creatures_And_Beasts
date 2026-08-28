@@ -1,6 +1,5 @@
 package com.cgessinger.creaturesandbeasts.modules;
 
-import com.cgessinger.creaturesandbeasts.CreaturesAndBeastsCommon;
 import com.cgessinger.creaturesandbeasts.CreaturesAndBeastsConstants;
 import com.helliongames.hellionsapi.registration.holders.BiomeModifierDataHolder;
 import com.helliongames.hellionsapi.registration.registries.HellionsAPIBiomeModifierRegistry;
@@ -12,10 +11,10 @@ public class CNBBiomeModifierModule {
     public static final HellionsAPIBiomeModifierRegistry BIOME_MODIFIERS = new HellionsAPIBiomeModifierRegistry(CreaturesAndBeastsConstants.MOD_ID);
 
     public static final BiomeModifierDataHolder CACTEM_SPAWN_ADDER = BIOME_MODIFIERS.register("cactem_spawns", BiomeModifierDataHolder.of(
-            BiomeModifierDataHolder.BiomeTarget.Tag.of(ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "dry_biomes")),
+            BiomeModifierDataHolder.BiomeTarget.Tag.of(ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "dry_biomes")),
             BiomeModifierDataHolder.SpawnData.of(
                     MobCategory.CREATURE,
-                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "cactem"),
+                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "cactem"),
                     3,
                     6,
                     13
@@ -26,7 +25,7 @@ public class CNBBiomeModifierModule {
             BiomeModifierDataHolder.BiomeTarget.Location.of(ResourceLocation.withDefaultNamespace("nether_wastes")),
             BiomeModifierDataHolder.SpawnData.of(
                     MobCategory.CREATURE,
-                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "cindershell"),
+                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "cindershell"),
                     400,
                     2,
                     8
@@ -37,7 +36,7 @@ public class CNBBiomeModifierModule {
             BiomeModifierDataHolder.BiomeTarget.Tag.of(ResourceLocation.withDefaultNamespace("is_end")),
             BiomeModifierDataHolder.SpawnData.of(
                     MobCategory.CREATURE,
-                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "end_whale"),
+                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "end_whale"),
                     1,
                     1,
                     1,
@@ -50,7 +49,7 @@ public class CNBBiomeModifierModule {
             BiomeModifierDataHolder.BiomeTarget.Location.of(ResourceLocation.withDefaultNamespace("swamp")),
             BiomeModifierDataHolder.SpawnData.of(
                     MobCategory.CREATURE,
-                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "lilytad"),
+                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "lilytad"),
                     45,
                     1,
                     1
@@ -61,7 +60,7 @@ public class CNBBiomeModifierModule {
             BiomeModifierDataHolder.BiomeTarget.Location.of(ResourceLocation.withDefaultNamespace("river")),
             BiomeModifierDataHolder.SpawnData.of(
                     MobCategory.CREATURE,
-                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "little_grebe"),
+                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "little_grebe"),
                     35,
                     2,
                     3
@@ -72,7 +71,7 @@ public class CNBBiomeModifierModule {
             BiomeModifierDataHolder.BiomeTarget.Location.of(ResourceLocation.withDefaultNamespace("swamp")),
             BiomeModifierDataHolder.SpawnData.of(
                     MobCategory.CREATURE,
-                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "minipad"),
+                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "minipad"),
                     20,
                     3,
                     6
@@ -83,7 +82,7 @@ public class CNBBiomeModifierModule {
             BiomeModifierDataHolder.BiomeTarget.Location.of(ResourceLocation.withDefaultNamespace("frozen_peaks")),
             BiomeModifierDataHolder.SpawnData.of(
                     MobCategory.CREATURE,
-                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "yeti"),
+                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "yeti"),
                     1,
                     2,
                     3
@@ -91,10 +90,10 @@ public class CNBBiomeModifierModule {
     ));
 
     public static final BiomeModifierDataHolder YETI_SPAWN_ADDER = BIOME_MODIFIERS.register("yeti_spawns", BiomeModifierDataHolder.of(
-            BiomeModifierDataHolder.BiomeTarget.Tag.of(ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "yeti_biomes")),
+            BiomeModifierDataHolder.BiomeTarget.Tag.of(ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "yeti_biomes")),
             BiomeModifierDataHolder.SpawnData.of(
                     MobCategory.CREATURE,
-                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "yeti"),
+                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "yeti"),
                     2,
                     2,
                     3
@@ -102,10 +101,10 @@ public class CNBBiomeModifierModule {
     ));
 
     public static final BiomeModifierDataHolder LIZARD_DESERT_SPAWN_ADDER = BIOME_MODIFIERS.register("lizard_desert_spawns", BiomeModifierDataHolder.of(
-            BiomeModifierDataHolder.BiomeTarget.Tag.of(ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "dry_biomes")),
+            BiomeModifierDataHolder.BiomeTarget.Tag.of(ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "dry_biomes")),
             BiomeModifierDataHolder.SpawnData.of(
                     MobCategory.CREATURE,
-                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "lizard"),
+                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "lizard"),
                     15,
                     1,
                     4
@@ -116,7 +115,7 @@ public class CNBBiomeModifierModule {
             BiomeModifierDataHolder.BiomeTarget.Tag.of(ResourceLocation.withDefaultNamespace("is_jungle")),
             BiomeModifierDataHolder.SpawnData.of(
                     MobCategory.CREATURE,
-                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "lizard"),
+                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "lizard"),
                     100,
                     1,
                     4
@@ -127,7 +126,7 @@ public class CNBBiomeModifierModule {
             BiomeModifierDataHolder.BiomeTarget.Location.of(ResourceLocation.withDefaultNamespace("mushroom_fields")),
             BiomeModifierDataHolder.SpawnData.of(
                     MobCategory.CREATURE,
-                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "lizard"),
+                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "lizard"),
                     10,
                     1,
                     4
@@ -138,7 +137,7 @@ public class CNBBiomeModifierModule {
             BiomeModifierDataHolder.BiomeTarget.Location.of(ResourceLocation.withDefaultNamespace("mushroom_fields")),
             BiomeModifierDataHolder.SpawnData.of(
                     MobCategory.CREATURE,
-                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "sporeling"),
+                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "sporeling"),
                     20,
                     3,
                     5
@@ -149,7 +148,7 @@ public class CNBBiomeModifierModule {
             BiomeModifierDataHolder.BiomeTarget.Location.of(ResourceLocation.withDefaultNamespace("swamp")),
             BiomeModifierDataHolder.SpawnData.of(
                     MobCategory.CREATURE,
-                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "sporeling"),
+                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "sporeling"),
                     25,
                     3,
                     5
@@ -160,7 +159,7 @@ public class CNBBiomeModifierModule {
             BiomeModifierDataHolder.BiomeTarget.Location.of(ResourceLocation.withDefaultNamespace("lush_caves")),
             BiomeModifierDataHolder.SpawnData.of(
                     MobCategory.CREATURE,
-                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "sporeling"),
+                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "sporeling"),
                     60,
                     3,
                     5
@@ -171,7 +170,7 @@ public class CNBBiomeModifierModule {
             BiomeModifierDataHolder.BiomeTarget.Location.of(ResourceLocation.withDefaultNamespace("dark_forest")),
             BiomeModifierDataHolder.SpawnData.of(
                     MobCategory.CREATURE,
-                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "sporeling"),
+                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "sporeling"),
                     70,
                     3,
                     5
@@ -182,7 +181,7 @@ public class CNBBiomeModifierModule {
             BiomeModifierDataHolder.BiomeTarget.Location.of(ResourceLocation.withDefaultNamespace("nether_wastes")),
             BiomeModifierDataHolder.SpawnData.of(
                     MobCategory.MONSTER,
-                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "sporeling"),
+                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "sporeling"),
                     60,
                     2,
                     4
@@ -193,7 +192,7 @@ public class CNBBiomeModifierModule {
             BiomeModifierDataHolder.BiomeTarget.Location.of(ResourceLocation.withDefaultNamespace("warped_forest")),
             BiomeModifierDataHolder.SpawnData.of(
                     MobCategory.MONSTER,
-                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "sporeling"),
+                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "sporeling"),
                     2,
                     2,
                     4
@@ -204,7 +203,7 @@ public class CNBBiomeModifierModule {
             BiomeModifierDataHolder.BiomeTarget.Location.of(ResourceLocation.withDefaultNamespace("crimson_forest")),
             BiomeModifierDataHolder.SpawnData.of(
                     MobCategory.MONSTER,
-                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "sporeling"),
+                    ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "sporeling"),
                     120,
                     2,
                     4

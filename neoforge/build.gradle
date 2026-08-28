@@ -52,6 +52,7 @@ neoForge {
 }
 
 dependencies {
+    implementation 'com.google.code.findbugs:jsr305:3.0.2'
     implementation "curse.maven:hellions-api-${hellionsapi_projectid}:${hellionsapi_neoforge}"
     implementation "software.bernie.geckolib:geckolib-neoforge-1.21.1:${neoforge_geckolib_version}"
 }

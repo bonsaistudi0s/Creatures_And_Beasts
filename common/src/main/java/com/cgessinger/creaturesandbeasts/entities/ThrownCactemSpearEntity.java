@@ -37,13 +37,13 @@ public class ThrownCactemSpearEntity extends AbstractArrow {
     }
 
     public ThrownCactemSpearEntity(Level level, LivingEntity entity, ItemStack itemStack) {
-        super(CNBEntityModule.THROWN_CACTEM_SPEAR.get(), entity, level, itemStack, itemStack);
+        super(CNBEntityModule.THROWN_CACTEM_SPEAR.get(), entity, level, itemStack, null);
         this.entityData.set(IS_FOIL, itemStack.hasFoil());
         this.entityData.set(ID_LOYALTY, this.getLoyaltyFromItem(itemStack));
     }
 
     public ThrownCactemSpearEntity(Level level, double x, double y, double z, ItemStack pickupItemStack) {
-        super(CNBEntityModule.THROWN_CACTEM_SPEAR.get(), x, y, z, level, pickupItemStack, pickupItemStack);
+        super(CNBEntityModule.THROWN_CACTEM_SPEAR.get(), x, y, z, level, pickupItemStack, null);
         this.entityData.set(ID_LOYALTY, this.getLoyaltyFromItem(pickupItemStack));
         this.entityData.set(IS_FOIL, pickupItemStack.hasFoil());
     }

@@ -19,6 +19,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'com.google.code.findbugs:jsr305:3.0.2'
     minecraft "com.mojang:minecraft:${minecraft_version}"
     mappings loom.layered {
         officialMojangMappings()

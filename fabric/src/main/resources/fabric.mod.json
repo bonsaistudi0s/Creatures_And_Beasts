@@ -16,7 +16,10 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.example.examplemod.ExampleMod"
+            "com.cgessinger.creaturesandbeasts.CreaturesAndBeasts"
+        ],
+        "client": [
+            "com.cgessinger.creaturesandbeasts.client.CreaturesAndBeastsClient"
         ]
     },
     "mixins": [
@@ -24,6 +27,8 @@
         "${mod_id}.fabric.mixins.json"
     ],
     "depends": {
+        "geckolib": ">=${fabric_geckolib_version}",
+        "hellionsapi": ">=1.0.1 <1.1",
         "fabricloader": ">=${fabric_loader_version}",
         "fabric-api": "*",
         "minecraft": "${minecraft_version}",

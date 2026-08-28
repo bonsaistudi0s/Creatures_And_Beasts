@@ -1,9 +1,8 @@
 package com.cgessinger.creaturesandbeasts.client.gui.screens.inventory;
 
-import com.cgessinger.creaturesandbeasts.CreaturesAndBeastsCommon;
+import com.cgessinger.creaturesandbeasts.CreaturesAndBeastsConstants;
 import com.cgessinger.creaturesandbeasts.menus.CinderFurnaceMenu;
 import com.mojang.blaze3d.systems.RenderSystem;
-import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.screens.recipebook.AbstractFurnaceRecipeBookComponent;
@@ -16,17 +15,19 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.inventory.ClickType;
 import net.minecraft.world.inventory.Slot;
+import org.jetbrains.annotations.NotNull;
 
 public class CinderFurnaceScreen extends AbstractContainerScreen<CinderFurnaceMenu> implements RecipeUpdateListener {
     public final AbstractFurnaceRecipeBookComponent recipeBookComponent;
     private boolean widthTooNarrow;
-    private final ResourceLocation texture = ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsCommon.MOD_ID, "textures/gui/container/cinder_furnace.png");;
+    private final ResourceLocation texture = ResourceLocation.fromNamespaceAndPath(CreaturesAndBeastsConstants.MOD_ID, "textures/gui/container/cinder_furnace.png");;
 
     public CinderFurnaceScreen(CinderFurnaceMenu cinderFurnaceMenu, Inventory inventory, Component component) {
         super(cinderFurnaceMenu, inventory, component);
         this.recipeBookComponent = new SmeltingRecipeBookComponent();
     }
 
+    @Override
     public void init() {
         super.init();
         this.widthTooNarrow = this.width < 379;
@@ -42,68 +43,69 @@ public class CinderFurnaceScreen extends AbstractContainerScreen<CinderFurnaceMe
         RenderSystem.setShaderTexture(0, this.texture);
         int i = this.leftPos;
         int j = this.topPos;
-        this.blit(poseStack, i, j, 0, 0, this.imageWidth, this.imageHeight);
-        this.blit(poseStack, i + 57, j + 37, 176, 0, 14, 14);
+        guiGraphics.blit(this.texture, i, j, 0, 0, this.imageWidth, this.imageHeight);
+        guiGraphics.blit(this.texture, i + 57, j + 37, 176, 0, 14, 14);
         int l = this.menu.getCookingProgress();
-        this.blit(poseStack, i + 79, j + 35, 176, 14, l + 1, 16);
+        guiGraphics.blit(this.texture, i + 79, j + 35, 176, 14, l + 1, 16);
     }
 
+    @Override
     public void containerTick() {
         super.containerTick();
         this.recipeBookComponent.tick();
     }
 
-    public void render(PoseStack poseStack, int p_97859_, int p_97860_, float p_97861_) {
-        this.renderBackground(poseStack);
+    @Override
+    public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTick) {
         if (this.recipeBookComponent.isVisible() && this.widthTooNarrow) {
-            this.renderBg(poseStack, p_97861_, p_97859_, p_97860_);
-            this.recipeBookComponent.render(poseStack, p_97859_, p_97860_, p_97861_);
+            this.renderBackground(guiGraphics, mouseX, mouseY, partialTick);
+            this.recipeBookComponent.render(guiGraphics, mouseX, mouseY, partialTick);
         } else {
-            this.recipeBookComponent.render(poseStack, p_97859_, p_97860_, p_97861_);
-            super.render(poseStack, p_97859_, p_97860_, p_97861_);
-            this.recipeBookComponent.renderGhostRecipe(poseStack, this.leftPos, this.topPos, true, p_97861_);
+            super.render(guiGraphics, mouseX, mouseY, partialTick);
+            this.recipeBookComponent.render(guiGraphics, mouseX, mouseY, partialTick);
+            this.recipeBookComponent.renderGhostRecipe(guiGraphics, this.leftPos, this.topPos, true, partialTick);
         }
 
-        this.renderTooltip(poseStack, p_97859_, p_97860_);
-        this.recipeBookComponent.renderTooltip(poseStack, this.leftPos, this.topPos, p_97859_, p_97860_);
+        this.renderTooltip(guiGraphics, mouseX, mouseY);
+        this.recipeBookComponent.renderTooltip(guiGraphics, this.leftPos, this.topPos, mouseX, mouseY);
     }
 
-    public boolean mouseClicked(double x, double y, int z) {
-        if (this.recipeBookComponent.mouseClicked(x, y, z)) {
+    @Override
+    public boolean mouseClicked(double mouseX, double mouseY, int button) {
+        if (this.recipeBookComponent.mouseClicked(mouseX, mouseY, button)) {
             return true;
         } else {
-            return this.widthTooNarrow && this.recipeBookComponent.isVisible() || super.mouseClicked(x, y, z);
+            return this.widthTooNarrow && this.recipeBookComponent.isVisible() || super.mouseClicked(mouseX, mouseY, button);
         }
     }
 
-    protected void slotClicked(Slot slot, int p_97849_, int p_97850_, ClickType clickType) {
-        super.slotClicked(slot, p_97849_, p_97850_, clickType);
+    @Override
+    protected void slotClicked(Slot slot, int slotId, int mouseButton, ClickType type) {
+        super.slotClicked(slot, slotId, mouseButton, type);
         this.recipeBookComponent.slotClicked(slot);
     }
 
-    public boolean keyPressed(int p_97844_, int p_97845_, int p_97846_) {
-        return !this.recipeBookComponent.keyPressed(p_97844_, p_97845_, p_97846_) && super.keyPressed(p_97844_, p_97845_, p_97846_);
+    @Override
+    public boolean keyPressed(int keyCode, int scanCode, int modifiers) {
+        return this.recipeBookComponent.keyPressed(keyCode, scanCode, modifiers) || super.keyPressed(keyCode, scanCode, modifiers);
     }
 
-    protected boolean hasClickedOutside(double p_97838_, double p_97839_, int p_97840_, int p_97841_, int p_97842_) {
-        boolean flag = p_97838_ < (double)p_97840_ || p_97839_ < (double)p_97841_ || p_97838_ >= (double)(p_97840_ + this.imageWidth) || p_97839_ >= (double)(p_97841_ + this.imageHeight);
-        return this.recipeBookComponent.hasClickedOutside(p_97838_, p_97839_, this.leftPos, this.topPos, this.imageWidth, this.imageHeight, p_97842_) && flag;
+    @Override
+    protected boolean hasClickedOutside(double mouseX, double mouseY, int guiLeft, int guiTop, int mouseButton) {
+        boolean bl = mouseX < (double)guiLeft
+                || mouseY < (double)guiTop
+                || mouseX >= (double)(guiLeft + this.imageWidth)
+                || mouseY >= (double)(guiTop + this.imageHeight);
+        return this.recipeBookComponent.hasClickedOutside(mouseX, mouseY, this.leftPos, this.topPos, this.imageWidth, this.imageHeight, mouseButton) && bl;
     }
 
-    public boolean charTyped(char p_97831_, int p_97832_) {
-        return this.recipeBookComponent.charTyped(p_97831_, p_97832_) || super.charTyped(p_97831_, p_97832_);
-    }
-
+    @Override
     public void recipesUpdated() {
         this.recipeBookComponent.recipesUpdated();
     }
 
-    public RecipeBookComponent getRecipeBookComponent() {
+    @Override
+    public @NotNull RecipeBookComponent getRecipeBookComponent() {
         return this.recipeBookComponent;
-    }
-
-    public void removed() {
-        this.recipeBookComponent.removed();
-        super.removed();
     }
 }
