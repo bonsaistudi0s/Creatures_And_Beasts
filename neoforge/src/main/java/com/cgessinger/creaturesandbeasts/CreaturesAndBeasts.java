@@ -11,6 +11,7 @@ public class CreaturesAndBeasts {
 
     public CreaturesAndBeasts(IEventBus eventBus) {
         CreaturesAndBeastsCommon.init();
+
         eventBus.addListener(this::clientSetup);
     }
 

@@ -4,6 +4,7 @@ import com.cgessinger.creaturesandbeasts.CreaturesAndBeastsConstants;
 import com.cgessinger.creaturesandbeasts.items.*;
 import com.helliongames.hellionsapi.registration.holders.ItemDataHolder;
 import com.helliongames.hellionsapi.registration.registries.HellionsAPIItemRegistry;
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -11,6 +12,7 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SpawnEggItem;
+import net.minecraft.world.item.component.CustomData;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.material.Fluids;
 
@@ -128,19 +130,19 @@ public class CNBItemModule {
             ItemDataHolder.of(() -> new SpawnEggItem(CNBEntityModule.CACTEM.get(), 0x1A6E23, 0xDCEBAB, new Item.Properties())));
 
     public static ItemDataHolder<?> LIZARD_ITEM_DESERT = ITEMS.register("lizard_item_desert",
-            ItemDataHolder.of(() -> new LizardItem(CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties(), CNBLizardTypeModule.DESERT)));
+            ItemDataHolder.of(() -> new LizardItem(CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties().component(DataComponents.ENTITY_DATA, CustomData.EMPTY.update(comp -> comp.putString("LizardType", CNBLizardTypeModule.DESERT.getId().toString()))), CNBLizardTypeModule.DESERT)));
 
     public static ItemDataHolder<?> LIZARD_ITEM_DESERT_2 = ITEMS.register("lizard_item_desert_2",
-            ItemDataHolder.of(() -> new LizardItem(CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties(), CNBLizardTypeModule.DESERT_2)));
+            ItemDataHolder.of(() -> new LizardItem(CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties().component(DataComponents.ENTITY_DATA, CustomData.EMPTY.update(comp -> comp.putString("LizardType", CNBLizardTypeModule.DESERT_2.getId().toString()))), CNBLizardTypeModule.DESERT_2)));
 
     public static ItemDataHolder<?> LIZARD_ITEM_JUNGLE = ITEMS.register("lizard_item_jungle",
-            ItemDataHolder.of(() -> new LizardItem(CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties(), CNBLizardTypeModule.JUNGLE)));
+            ItemDataHolder.of(() -> new LizardItem(CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties().component(DataComponents.ENTITY_DATA, CustomData.EMPTY.update(comp -> comp.putString("LizardType", CNBLizardTypeModule.JUNGLE.getId().toString()))), CNBLizardTypeModule.JUNGLE)));
 
     public static ItemDataHolder<?> LIZARD_ITEM_JUNGLE_2 = ITEMS.register("lizard_item_jungle_2",
-            ItemDataHolder.of(() -> new LizardItem(CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties(), CNBLizardTypeModule.JUNGLE_2)));
+            ItemDataHolder.of(() -> new LizardItem(CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties().component(DataComponents.ENTITY_DATA, CustomData.EMPTY.update(comp -> comp.putString("LizardType", CNBLizardTypeModule.JUNGLE_2.getId().toString()))), CNBLizardTypeModule.JUNGLE_2)));
 
     public static ItemDataHolder<?> LIZARD_ITEM_MUSHROOM = ITEMS.register("lizard_item_mushroom",
-            ItemDataHolder.of(() -> new LizardItem(CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties(), CNBLizardTypeModule.MUSHROOM)));
+            ItemDataHolder.of(() -> new LizardItem(CNBEntityModule.LIZARD.get(), 0x00FFFFFF, 0x00FFFFFF, new Item.Properties().component(DataComponents.ENTITY_DATA, CustomData.EMPTY.update(comp -> comp.putString("LizardType", CNBLizardTypeModule.MUSHROOM.getId().toString()))), CNBLizardTypeModule.MUSHROOM)));
 
     public static ItemDataHolder<?> SPORELING_OVERWORLD_EGG = ITEMS.register("sporeling_overworld_egg",
             ItemDataHolder.of(() -> new SporelingSpawnEggItem(CNBEntityModule.SPORELING.get(), 0xDE0942, 0xFFEBC4, new Item.Properties())));

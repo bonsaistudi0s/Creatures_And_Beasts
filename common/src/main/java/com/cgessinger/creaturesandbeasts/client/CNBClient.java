@@ -6,6 +6,7 @@ import com.cgessinger.creaturesandbeasts.mixin.accessor.ItemPropertiesAccessor;
 import com.cgessinger.creaturesandbeasts.mixin.accessor.ModelLayersAccessor;
 import com.cgessinger.creaturesandbeasts.modules.CNBEntityModule;
 import com.cgessinger.creaturesandbeasts.modules.CNBItemModule;
+import com.helliongames.hellionsapi.client.HellionsAPICommonClient;
 import com.helliongames.hellionsapi.registration.registries.client.HellionsAPIEntityRendererRegistry;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 import net.minecraft.resources.ResourceLocation;
@@ -26,5 +27,7 @@ public class CNBClient {
 
         ItemPropertiesAccessor.invokeRegister(CNBItemModule.CACTEM_SPEAR.get(), ResourceLocation.withDefaultNamespace("throwing"), (item, resourceLocation, entity, itemPropertyFunction) -> entity != null && entity.isUsingItem() && entity.getUseItem() == item ? 1.0F : 0.0F);
         ModelLayersAccessor.getModelLayers().add(CactemSpearModel.LAYER_LOCATION);
+
+        HellionsAPICommonClient.init();
     }
 }

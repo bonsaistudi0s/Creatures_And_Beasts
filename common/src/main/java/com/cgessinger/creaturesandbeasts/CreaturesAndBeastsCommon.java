@@ -2,6 +2,7 @@ package com.cgessinger.creaturesandbeasts;
 
 import com.cgessinger.creaturesandbeasts.modules.*;
 import com.cgessinger.creaturesandbeasts.world.gen.ModEntitySpawns;
+import com.helliongames.hellionsapi.HellionsAPICommon;
 
 public class CreaturesAndBeastsCommon {
 
@@ -22,5 +23,7 @@ public class CreaturesAndBeastsCommon {
         CNBMinipadTypeModule.registerAll();
 
         ModEntitySpawns.entitySpawnPlacementRegistry();
+
+        HellionsAPICommon.init(CreaturesAndBeastsConstants.MOD_ID);
     }
 }

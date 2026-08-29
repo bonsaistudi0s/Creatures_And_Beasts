@@ -102,7 +102,7 @@ public class LizardItem extends SpawnEggItem {
             } else if (level.mayInteract(player, blockpos) && player.mayUseItemAt(blockpos, blockhitresult.getDirection(), itemstack)) {
                 EntityType<?> entitytype = this.getType(itemstack);
 
-                itemstack.update(DataComponents.CUSTOM_DATA, CustomData.EMPTY, comp -> comp.update(itemTag -> {
+                itemstack.update(DataComponents.ENTITY_DATA, CustomData.EMPTY, comp -> comp.update(itemTag -> {
                     itemTag.putString("LizardType", type.getId().toString());
                 }));
 
