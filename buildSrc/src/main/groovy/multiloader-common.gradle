@@ -99,6 +99,7 @@ processResources {
             'hellionsapi_projectid'        : hellionsapi_projectid,
             'hellionsapi_fabric'           : hellionsapi_fabric,
             'hellionsapi_neoforge'         : hellionsapi_neoforge,
+            'hellionsapi_range'            : hellionsapi_range,
             'neoforge_geckolib_version'    : neoforge_geckolib_version,
             'fabric_geckolib_version'      : fabric_geckolib_version,
             'credits'                      : credits,

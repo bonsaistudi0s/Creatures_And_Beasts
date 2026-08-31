@@ -17,6 +17,12 @@ config = "${mod_id}.mixins.json"
 [[mixins]]
 config = "${mod_id}.neoforge.mixins.json"
 [[dependencies.${mod_id}]]
+modId = "hellionsapi"
+type = "required"
+versionRange = "${hellionsapi_range}"
+ordering = "BEFORE"
+side = "BOTH"
+[[dependencies.${mod_id}]]
 modId = "neoforge"
 type="required"
 versionRange = "[${neoforge_version},)"
