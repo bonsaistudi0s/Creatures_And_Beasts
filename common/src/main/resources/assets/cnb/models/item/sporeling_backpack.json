@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "cnb:items/sporeling_backpack"
+    "layer0": "cnb:item/sporeling_backpack"
   }
 }

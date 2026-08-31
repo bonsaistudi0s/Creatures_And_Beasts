@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "cnb:items/cinder_sword"
+    "layer0": "cnb:item/cinder_sword"
   }
 }

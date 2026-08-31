@@ -5,8 +5,8 @@
     64
   ],
   "textures": {
-    "2": "cnb:items/cactem_spear",
-    "particle": "cnb:items/cactem_spear"
+    "2": "cnb:item/cactem_spear",
+    "particle": "cnb:item/cactem_spear"
   },
   "elements": [
     {

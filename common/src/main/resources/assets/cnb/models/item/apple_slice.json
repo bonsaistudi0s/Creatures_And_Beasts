@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "cnb:items/apple_slice"
+    "layer0": "cnb:item/apple_slice"
   }
 }

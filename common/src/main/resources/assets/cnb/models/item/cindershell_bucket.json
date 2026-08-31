@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "cnb:items/cindershell_bucket"
+    "layer0": "cnb:item/cindershell_bucket"
   }
 }

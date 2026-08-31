@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "cnb:items/entity_net"
+    "layer0": "cnb:item/entity_net"
   }
 }

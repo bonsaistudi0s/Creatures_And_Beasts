@@ -1,8 +1,7 @@
 {
-  "credit": "Made with Blockbench",
   "textures": {
-    "1": "cnb:blocks/lizard_eggs",
-    "particle": "cnb:blocks/lizard_eggs"
+    "1": "cnb:block/lizard_eggs",
+    "particle": "cnb:block/lizard_eggs"
   },
   "elements": [
     {

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "cnb:items/lizard_item_mushroom"
+    "layer0": "cnb:item/lizard_item_mushroom"
   }
 }

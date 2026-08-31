@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "cnb:items/little_grebe_spawn_egg"
+    "layer0": "cnb:item/little_grebe_spawn_egg"
   }
 }
