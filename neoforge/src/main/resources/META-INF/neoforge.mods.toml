@@ -19,7 +19,7 @@ config = "${mod_id}.neoforge.mixins.json"
 [[dependencies.${mod_id}]]
 modId = "hellionsapi"
 type = "required"
-versionRange = "${hellionsapi_range}"
+versionRange = "[${hellionsapi_low_version},${hellionsapi_high_version})"
 ordering = "BEFORE"
 side = "BOTH"
 [[dependencies.${mod_id}]]
