@@ -57,7 +57,7 @@ public class CinderSwordItem extends SwordItem {
             stack.update(DataComponents.ATTRIBUTE_MODIFIERS, ItemAttributeModifiers.EMPTY, comp -> comp.withModifierAdded(
                     Attributes.ATTACK_DAMAGE,
                     new AttributeModifier(
-                            BASE_ATTACK_DAMAGE_ID, ((float)3 + newImbueLevel + CNBItemTiers.CINDER.getAttackDamageBonus()), AttributeModifier.Operation.ADD_VALUE
+                            BASE_ATTACK_DAMAGE_ID, 3.0D + (double) newImbueLevel + (double) CNBItemTiers.CINDER.getAttackDamageBonus(), AttributeModifier.Operation.ADD_VALUE
                     ),
                     EquipmentSlotGroup.MAINHAND)
             );

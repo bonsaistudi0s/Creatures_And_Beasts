@@ -50,7 +50,6 @@ public class CNBClient {
         PARTICLE_FACTORIES.register(CNBParticleTypeModule.YELLOW_MINIPAD_FLOWER, MinipadFlowerParticle.Factory::new);
         PARTICLE_FACTORIES.register(CNBParticleTypeModule.CACTEM_HEAL_PARTICLE, CactemHealParticle.Factory::new);
 
-//        ItemPropertiesAccessor.invokeRegister(CNBItemModule.CACTEM_SPEAR.get(), ResourceLocation.withDefaultNamespace("throwing"), (item, resourceLocation, entity, itemPropertyFunction) -> entity != null && entity.isUsingItem() && entity.getUseItem() == item ? 1.0F : 0.0F);
         ModelLayersAccessor.getModelLayers().add(CactemSpearModel.LAYER_LOCATION);
 
         HellionsAPICommonClient.init(CreaturesAndBeastsConstants.MOD_ID);

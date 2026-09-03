@@ -22,7 +22,7 @@ public class SporelingBackpackModel extends GeoModel<SporelingBackpackItem> {
 
     @Override
     public ResourceLocation getAnimationResource(SporelingBackpackItem animatable) {
-        return null;
+        return SPORELING_BACKPACK_ANIMATION;
     }
 
 }

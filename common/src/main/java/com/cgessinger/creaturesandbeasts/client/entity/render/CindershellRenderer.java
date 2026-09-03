@@ -13,12 +13,13 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ItemDisplayContext;
 import software.bernie.geckolib.cache.object.GeoBone;
 import software.bernie.geckolib.renderer.GeoEntityRenderer;
+import software.bernie.geckolib.renderer.layer.AutoGlowingGeoLayer;
 
 public class CindershellRenderer extends GeoEntityRenderer<CindershellEntity> {
 
     public CindershellRenderer(EntityRendererProvider.Context context) {
         super(context, new CindershellModel());
-        this.addRenderLayer(new CindershellGlowLayer(this));
+        this.addRenderLayer(new AutoGlowingGeoLayer<>(this));
         this.shadowRadius = 0.4F;
     }
 

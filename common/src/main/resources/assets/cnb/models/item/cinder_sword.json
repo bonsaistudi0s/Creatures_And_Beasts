@@ -2,5 +2,31 @@
   "parent": "item/handheld",
   "textures": {
     "layer0": "cnb:item/cinder_sword"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "cnb:imbue_level": 1
+      },
+      "model": "cnb:item/cinder_sword_1"
+    },
+    {
+      "predicate": {
+        "cnb:imbue_level": 2
+      },
+      "model": "cnb:item/cinder_sword_2"
+    },
+    {
+      "predicate": {
+        "cnb:imbue_level": 3
+      },
+      "model": "cnb:item/cinder_sword_3"
+    },
+    {
+      "predicate": {
+        "cnb:imbue_level": 4
+      },
+      "model": "cnb:item/cinder_sword_4"
+    }
+  ]
 }
